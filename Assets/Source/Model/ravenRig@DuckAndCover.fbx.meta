@@ -1,0 +1,628 @@
+fileFormatVersion: 2
+guid: 08748a38bdee94c20922fca838bf00a2
+timeCreated: 1469538710
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ankle_L
+    100002: Ankle_R
+    100004: beak1_M
+    100006: beak1End_M
+    100008: beak_M
+    100010: Chest_M
+    100012: DeformationSystem
+    100014: Elbow_L
+    100016: Elbow_R
+    100018: ElbowPart1_L
+    100020: ElbowPart1_R
+    100022: Eye_base_M
+    100024: Eye_L
+    100026: Eye_R
+    100028: Eyebrow1_L
+    100030: Eyebrow1_R
+    100032: Eyebrow1End_L
+    100034: Eyebrow1End_R
+    100036: Eyebrow_L
+    100038: Eyebrow_R
+    100040: EyeEnd_L
+    100042: EyeEnd_R
+    100044: Head_M
+    100046: HeadEnd_M
+    100048: Hip_L
+    100050: Hip_R
+    100052: IndexFinger1_L
+    100054: IndexFinger1_R
+    100056: IndexFinger2_L
+    100058: IndexFinger2_R
+    100060: IndexFinger3_L
+    100062: IndexFinger3_R
+    100064: IndexFinger3End_L
+    100066: IndexFinger3End_R
+    100068: IndexToe1_L
+    100070: IndexToe1_R
+    100072: IndexToe2_L
+    100074: IndexToe2_R
+    100076: IndexToe2End_L
+    100078: IndexToe2End_R
+    100080: Knee_L
+    100082: Knee_R
+    100084: legMove_L
+    100086: legMove_R
+    100088: LowerEyelid_L
+    100090: LowerEyelid_L_End
+    100092: LowerEyelid_R
+    100094: LowerEyelid_R_End
+    100096: Main
+    100098: MiddleFinger1_L
+    100100: MiddleFinger1_R
+    100102: MiddleFinger2_L
+    100104: MiddleFinger2_R
+    100106: MiddleFinger3_L
+    100108: MiddleFinger3_R
+    100110: MiddleFinger3End_L
+    100112: MiddleFinger3End_R
+    100114: MiddleToe1_L
+    100116: MiddleToe1_R
+    100118: MiddleToe2_L
+    100120: MiddleToe2_R
+    100122: MiddleToe2End_L
+    100124: MiddleToe2End_R
+    100126: Neck_M
+    100128: NeckPart1_M
+    100130: PinkyFinger1_L
+    100132: PinkyFinger1_R
+    100134: PinkyFinger2_L
+    100136: PinkyFinger2_R
+    100138: PinkyFinger3_L
+    100140: PinkyFinger3_R
+    100142: PinkyFinger3End_L
+    100144: PinkyFinger3End_R
+    100146: PinkyToe1_L
+    100148: PinkyToe1_R
+    100150: PinkyToe2_L
+    100152: PinkyToe2_R
+    100154: PinkyToe2End_L
+    100156: PinkyToe2End_R
+    100158: Raven_Geo
+    100160: Raven_Rig
+    100162: RavenLeftEye
+    100164: RavenLeftEye_Group
+    100166: RavenLeftEye_LowerEyelid
+    100168: RavenLeftEye_UpperEyelid
+    100170: //RootNode
+    100172: RavenRightEye
+    100174: RavenRightEye_Group
+    100176: RavenRightEye_LowerEyelid
+    100178: RavenRightEye_UpperEyelid
+    100180: Root_M
+    100182: Scapula_L
+    100184: Scapula_R
+    100186: Shoulder_L
+    100188: Shoulder_R
+    100190: Spine1_M
+    100192: Tail1_M
+    100194: Tail2_M
+    100196: Tail2End_M
+    100198: Tail_M
+    100200: ThumbFinger1_L
+    100202: ThumbFinger1_R
+    100204: ThumbFinger2_L
+    100206: ThumbFinger2_R
+    100208: ThumbFinger3_L
+    100210: ThumbFinger3_R
+    100212: ThumbFinger3End_L
+    100214: ThumbFinger3End_R
+    100216: ThumbToe1_L
+    100218: ThumbToe1_R
+    100220: ThumbToe2_L
+    100222: ThumbToe2_R
+    100224: ThumbToe3_L
+    100226: ThumbToe3_R
+    100228: ThumbToe3End_L
+    100230: ThumbToe3End_R
+    100232: Toes_L
+    100234: Toes_R
+    100236: ToesEnd_L
+    100238: ToesEnd_R
+    100240: Tongue
+    100242: UpperBeak1_M
+    100244: UpperBeak1End_M
+    100246: UpperBeak_M
+    100248: UpperEyelid_L
+    100250: UpperEyelid_L_End
+    100252: UpperEyelid_R
+    100254: UpperEyelid_R_End
+    100256: Wrist_L
+    100258: Wrist_R
+    400000: Ankle_L
+    400002: Ankle_R
+    400004: beak1_M
+    400006: beak1End_M
+    400008: beak_M
+    400010: Chest_M
+    400012: DeformationSystem
+    400014: Elbow_L
+    400016: Elbow_R
+    400018: ElbowPart1_L
+    400020: ElbowPart1_R
+    400022: Eye_base_M
+    400024: Eye_L
+    400026: Eye_R
+    400028: Eyebrow1_L
+    400030: Eyebrow1_R
+    400032: Eyebrow1End_L
+    400034: Eyebrow1End_R
+    400036: Eyebrow_L
+    400038: Eyebrow_R
+    400040: EyeEnd_L
+    400042: EyeEnd_R
+    400044: Head_M
+    400046: HeadEnd_M
+    400048: Hip_L
+    400050: Hip_R
+    400052: IndexFinger1_L
+    400054: IndexFinger1_R
+    400056: IndexFinger2_L
+    400058: IndexFinger2_R
+    400060: IndexFinger3_L
+    400062: IndexFinger3_R
+    400064: IndexFinger3End_L
+    400066: IndexFinger3End_R
+    400068: IndexToe1_L
+    400070: IndexToe1_R
+    400072: IndexToe2_L
+    400074: IndexToe2_R
+    400076: IndexToe2End_L
+    400078: IndexToe2End_R
+    400080: Knee_L
+    400082: Knee_R
+    400084: legMove_L
+    400086: legMove_R
+    400088: LowerEyelid_L
+    400090: LowerEyelid_L_End
+    400092: LowerEyelid_R
+    400094: LowerEyelid_R_End
+    400096: Main
+    400098: MiddleFinger1_L
+    400100: MiddleFinger1_R
+    400102: MiddleFinger2_L
+    400104: MiddleFinger2_R
+    400106: MiddleFinger3_L
+    400108: MiddleFinger3_R
+    400110: MiddleFinger3End_L
+    400112: MiddleFinger3End_R
+    400114: MiddleToe1_L
+    400116: MiddleToe1_R
+    400118: MiddleToe2_L
+    400120: MiddleToe2_R
+    400122: MiddleToe2End_L
+    400124: MiddleToe2End_R
+    400126: Neck_M
+    400128: NeckPart1_M
+    400130: PinkyFinger1_L
+    400132: PinkyFinger1_R
+    400134: PinkyFinger2_L
+    400136: PinkyFinger2_R
+    400138: PinkyFinger3_L
+    400140: PinkyFinger3_R
+    400142: PinkyFinger3End_L
+    400144: PinkyFinger3End_R
+    400146: PinkyToe1_L
+    400148: PinkyToe1_R
+    400150: PinkyToe2_L
+    400152: PinkyToe2_R
+    400154: PinkyToe2End_L
+    400156: PinkyToe2End_R
+    400158: Raven_Geo
+    400160: Raven_Rig
+    400162: RavenLeftEye
+    400164: RavenLeftEye_Group
+    400166: RavenLeftEye_LowerEyelid
+    400168: RavenLeftEye_UpperEyelid
+    400170: //RootNode
+    400172: RavenRightEye
+    400174: RavenRightEye_Group
+    400176: RavenRightEye_LowerEyelid
+    400178: RavenRightEye_UpperEyelid
+    400180: Root_M
+    400182: Scapula_L
+    400184: Scapula_R
+    400186: Shoulder_L
+    400188: Shoulder_R
+    400190: Spine1_M
+    400192: Tail1_M
+    400194: Tail2_M
+    400196: Tail2End_M
+    400198: Tail_M
+    400200: ThumbFinger1_L
+    400202: ThumbFinger1_R
+    400204: ThumbFinger2_L
+    400206: ThumbFinger2_R
+    400208: ThumbFinger3_L
+    400210: ThumbFinger3_R
+    400212: ThumbFinger3End_L
+    400214: ThumbFinger3End_R
+    400216: ThumbToe1_L
+    400218: ThumbToe1_R
+    400220: ThumbToe2_L
+    400222: ThumbToe2_R
+    400224: ThumbToe3_L
+    400226: ThumbToe3_R
+    400228: ThumbToe3End_L
+    400230: ThumbToe3End_R
+    400232: Toes_L
+    400234: Toes_R
+    400236: ToesEnd_L
+    400238: ToesEnd_R
+    400240: Tongue
+    400242: UpperBeak1_M
+    400244: UpperBeak1End_M
+    400246: UpperBeak_M
+    400248: UpperEyelid_L
+    400250: UpperEyelid_L_End
+    400252: UpperEyelid_R
+    400254: UpperEyelid_R_End
+    400256: Wrist_L
+    400258: Wrist_R
+    7400000: DuckAndCover
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DuckAndCover
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 151
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: AnimationComplete
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Raven_Geo
+        weight: 1
+      - path: Raven_Geo/RavenLeftEye_Group
+        weight: 1
+      - path: Raven_Geo/RavenLeftEye_Group/RavenLeftEye
+        weight: 1
+      - path: Raven_Geo/RavenLeftEye_Group/RavenLeftEye_LowerEyelid
+        weight: 1
+      - path: Raven_Geo/RavenLeftEye_Group/RavenLeftEye_UpperEyelid
+        weight: 1
+      - path: Raven_Geo/RavenRightEye_Group
+        weight: 1
+      - path: Raven_Geo/RavenRightEye_Group/RavenRightEye
+        weight: 1
+      - path: Raven_Geo/RavenRightEye_Group/RavenRightEye_LowerEyelid
+        weight: 1
+      - path: Raven_Geo/RavenRightEye_Group/RavenRightEye_UpperEyelid
+        weight: 1
+      - path: Raven_Rig
+        weight: 1
+      - path: Raven_Rig/Main
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/ThumbToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/ThumbToe1_L/ThumbToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/ThumbToe1_L/ThumbToe2_L/ThumbToe3_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/ThumbToe1_L/ThumbToe2_L/ThumbToe3_L/ThumbToe3End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/IndexToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/IndexToe1_L/IndexToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/IndexToe1_L/IndexToe2_L/IndexToe2End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/MiddleToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/MiddleToe1_L/MiddleToe2_L/MiddleToe2End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/PinkyToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/PinkyToe1_L/PinkyToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/PinkyToe1_L/PinkyToe2_L/PinkyToe2End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/ToesEnd_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/ThumbToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/ThumbToe1_R/ThumbToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/ThumbToe1_R/ThumbToe2_R/ThumbToe3_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/ThumbToe1_R/ThumbToe2_R/ThumbToe3_R/ThumbToe3End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/IndexToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/IndexToe1_R/IndexToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/IndexToe1_R/IndexToe2_R/IndexToe2End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/MiddleToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/MiddleToe1_R/MiddleToe2_R/MiddleToe2End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/PinkyToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/PinkyToe1_R/PinkyToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/PinkyToe1_R/PinkyToe2_R/PinkyToe2End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/ToesEnd_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/beak_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/beak_M/beak1_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/beak_M/beak1_M/beak1End_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eye_base_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eye_base_M/Eye_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eye_base_M/Eye_L/EyeEnd_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eye_base_M/Eye_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eye_base_M/Eye_R/EyeEnd_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eyebrow_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eyebrow_L/Eyebrow1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eyebrow_L/Eyebrow1_L/Eyebrow1End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eyebrow_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eyebrow_R/Eyebrow1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eyebrow_R/Eyebrow1_R/Eyebrow1End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/HeadEnd_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/LowerEyelid_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/LowerEyelid_L/LowerEyelid_L_End
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/LowerEyelid_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/LowerEyelid_R/LowerEyelid_R_End
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Tongue
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/UpperBeak_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/UpperBeak_M/UpperBeak1_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/UpperBeak_M/UpperBeak1_M/UpperBeak1End_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/UpperEyelid_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/UpperEyelid_L/UpperEyelid_L_End
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/UpperEyelid_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/UpperEyelid_R/UpperEyelid_R_End
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L/IndexFinger3End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger3End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/PinkyFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger3End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger3End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R/IndexFinger3End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R/MiddleFinger3End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/PinkyFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/PinkyFinger1_R/PinkyFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R/PinkyFinger3End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R/ThumbFinger3End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Tail_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Tail_M/Tail1_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Tail_M/Tail1_M/Tail2_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Tail_M/Tail1_M/Tail2_M/Tail2End_M
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

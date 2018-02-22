@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &146388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400252}
+  - component: {fileID: 11445722}
+  - component: {fileID: 11485008}
+  - component: {fileID: 11445984}
+  - component: {fileID: 11400226}
+  - component: {fileID: 11451018}
+  m_Layer: 0
+  m_Name: Core_GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400252
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146388}
+  m_LocalRotation: {x: 0, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: -1.68}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1506878fe98347e889f923b8bc887ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ravenController: {fileID: 0}
+  gameController: {fileID: 11445722}
+  delayBetweenVoiceOver: 2
+  default_iso: en
+--- !u!114 &11445722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3074dea738184451a9fb7be5b899703a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  environmentController: {fileID: 11451018}
+  Raven: {fileID: 0}
+  DiceController: {fileID: 0}
+  BasketController: {fileID: 0}
+  InputManager: {fileID: 11485008}
+  imageColorList: 
+  uiController: {fileID: 0}
+  greyBackground: {fileID: 0}
+  possibleFruitColors: 0100000002000000060000000400000005000000
+  TreePositions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  possibleTreesList: 
+  possibleTreePrefabs:
+  - {fileID: 110406, guid: ce6452e34e7cd4cb1beccb61c9c7e71a, type: 2}
+  - {fileID: 164692, guid: 7eb9f78a6e16a46299b477e347332c33, type: 2}
+  - {fileID: 179704, guid: daa9c1a35b75f4bff9700ae93c2e9825, type: 2}
+  - {fileID: 196628, guid: 0aa928b25446a46a6b96a4cccd45a622, type: 2}
+  - {fileID: 149472, guid: 5b775cc8d40004d789a3f39afd1cfd90, type: 2}
+  - {fileID: 130782, guid: a4b2e5eab3ee443018ac16986ebcaa2a, type: 2}
+  - {fileID: 180274, guid: d03a012408d4e419592f017f50b9c120, type: 2}
+  - {fileID: 186464, guid: cce42ace3a86449549984185446b01ae, type: 2}
+  - {fileID: 163736, guid: d0f34967791704464b63952acba00ca0, type: 2}
+  - {fileID: 158428, guid: f1299e67fe3064a70a89116488aef782, type: 2}
+  - {fileID: 134280, guid: f78182ef8d7ea47d395b7dcc443bac44, type: 2}
+  - {fileID: 199078, guid: d3c9264ec20c74210889c28a171c2346, type: 2}
+  - {fileID: 126876, guid: 7770b913dc93e4555983a3fb10be671b, type: 2}
+  - {fileID: 108664, guid: 46e8801fcc1d44c5b968cdc4d1c14d61, type: 2}
+  - {fileID: 176684, guid: 9e625f00481314eee9cced7f49b15233, type: 2}
+  - {fileID: 166198, guid: d4f6f12258a4b41628d649d373e5e4cd, type: 2}
+  - {fileID: 198770, guid: afa97ab7faf0544e2a276133371933a4, type: 2}
+  - {fileID: 114696, guid: 56bd0a5b9bf064f5c80d2c6d13c62350, type: 2}
+  - {fileID: 128228, guid: d21053298728f4978a4d160f4aa2e59c, type: 2}
+  - {fileID: 127686, guid: 813c6f4c2332b439b82004b9722fece1, type: 2}
+  - {fileID: 179634, guid: 2717d05d25bd746228da2c11ebd7ffc1, type: 2}
+  - {fileID: 145954, guid: 52512c396f12e4ac992c68e3271ac36b, type: 2}
+  - {fileID: 176944, guid: a60a16137f61442d88848ac3665895b9, type: 2}
+  - {fileID: 177190, guid: befa173084d9a482b83f77e9f5a1d6d5, type: 2}
+  - {fileID: 135214, guid: 6c1ea74e7963f44239a0e7026c3cc302, type: 2}
+  - {fileID: 195808, guid: 385e6da848d2e4461a30a686e62e68fd, type: 2}
+  - {fileID: 117164, guid: 0a2d071d3d7dc46a89522d679cbcb244, type: 2}
+  - {fileID: 183722, guid: ad3d48376a97e411bb98133af01afce3, type: 2}
+  - {fileID: 142508, guid: fea6c84bce78a4df4a2803a220e7396d, type: 2}
+  - {fileID: 170980, guid: 3248459d33e1e4d708cfc62021a9d0c8, type: 2}
+  - {fileID: 140878, guid: ae89dab5b3f2d4f74afe065ea5f913d9, type: 2}
+  - {fileID: 134888, guid: 6f3553015e60f44b392397b836301129, type: 2}
+  - {fileID: 177804, guid: c48aa513c3e474055aace05edc9da0f7, type: 2}
+  - {fileID: 124446, guid: 6009f664c4bec44f398263d78970c23e, type: 2}
+  - {fileID: 136210, guid: 436b30723ffbd4ea589ff219f990d120, type: 2}
+  - {fileID: 182516, guid: dad07fccdd91f4921b275ae83b3fa76d, type: 2}
+  - {fileID: 164062, guid: 08881a83cadb645dc98fd3590df8afa7, type: 2}
+  - {fileID: 180338, guid: 8ad0566af070c46c98820ee0506f9e7e, type: 2}
+  - {fileID: 165638, guid: 6c5fe09ed9d244fa09d8eba62e2445f3, type: 2}
+  - {fileID: 132618, guid: 612a654c063034099b5edaabb0922808, type: 2}
+  RewardAnimation: {fileID: 0}
+  DebugText: {fileID: 0}
+  RavenPosDebugText: {fileID: 0}
+  colourID: -1
+  ravenMinigames:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  positionOfTheMinigame: 01000000
+  positionOfTheBubble: 0000000002000000
+  bubblePossibility: 100
+  rewardCheerSFX: {fileID: 8300000, guid: dd9ab99933c4a46448db49a74d156b86, type: 3}
+  cameraController: {fileID: 0}
+  ravenPositionsCount: 4
+  ravenPositions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  randomSpawnPositions: 0
+  fruitCount: 0
+  specificFruitCount: 00000000000000000000000000000000
+  treeFolders:
+  - Assets/Alpha/RandomizerExport
+  fruitHint: 0
+  fruitHint1Active: 0
+  fruitHint2Active: 0
+  timeBeforeFruitHighlightHint: 4
+  timeBeforeFruitHighlightHint2: 9
+  ravenStartupDelay: 2
+  currentHighlightedTree: {fileID: 0}
+  HintHand: {fileID: 0}
+  tutorialController: {fileID: 11400226}
+  tutorial: 0
+  forceTutorial: 0
+  startLoading: 0
+  rewardAnimationController: {fileID: 0}
+  showPointerAtColorWheelTutorial: 0
+  isGoingBackToMenu: 0
+  onApplicationReady:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &11445984
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 078342a2ad1b146718ab84f0b52f8218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitEntries:
+  - FruitType: GreenApple
+    FruitColor: 4
+  - FruitType: OrangePears
+    FruitColor: 5
+  - FruitType: RedApple
+    FruitColor: 1
+  - FruitType: RedCherries
+    FruitColor: 1
+  - FruitType: VioletPlum
+    FruitColor: 6
+  - FruitType: YellowApple
+    FruitColor: 2
+  - FruitType: YellowLemons
+    FruitColor: 2
+  - FruitType: YellowPears
+    FruitColor: 2
+  - FruitType: OrangeOrange
+    FruitColor: 5
+--- !u!114 &11451018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3a98012b1ab46d3b6330dc61d4720c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forceNight: 0
+  daynight: 1
+  startOfNight: 19:00
+  endOfNight: 6:00
+  sun: {fileID: 0}
+  moon: {fileID: 0}
+  sky: {fileID: 0}
+  daySky: {fileID: 21300000, guid: eaa2208393e8f4ef68915b7f784da5a9, type: 3}
+  nightSky: {fileID: 21300000, guid: 053885f4a10144ba7951e157096c4e74, type: 3}
+  nightTint:
+    r: 0.38927332
+    g: 0.38927332
+    b: 0.7058823
+    a: 1
+  mMole: {fileID: 0}
+  moleSpawnTimeSpan: 15
+  moleSpawnpoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  moleSpawn: 1
+  pollenPrefab: {fileID: 103602, guid: f064e60f978844927ba72d6f252a6949, type: 2}
+  maxPolleCount: 10
+  pollenSpawnTimeSpan: 2
+  pollenSpawn: 1
+  spawnSortingLayers:
+  - Forground
+  - GrassLayer1
+  - GrassLayer2
+  - GrassLayer2
+  - GrassLayer4
+  - GrassLayer5
+  beePrefab: {fileID: 173296, guid: 1e5dfd8153dc348d9b22d8ed6cbfe070, type: 2}
+  beeSpawnTimeSpan: 7
+  beeSpawn: 1
+  beeSpawnpoints: []
+  earthWorm: {fileID: 0}
+  eathWormSpawn: 0
+  earthSpawnTimeSpan: 2
+  fruits: []
+--- !u!114 &11485008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0888871e6b7cc4fe29ac8dd88349d5bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 11445722}
+  basketController: {fileID: 0}
+  cameraController: {fileID: 0}
+  environmentController: {fileID: 11451018}
+  basketLayermask: {}
+  allowSwipe: 1
+  allowShake: 1
+  grabOffset: {x: -90, y: 180, z: 8}
+  fruitlayerMask: {}
+  ravenlayerMask: {}
+  gameEventSystem: {fileID: 0}
+  basketShakeItensity: {x: 0, y: 0, z: 5}
+  basketShakeTime: 0.5
+  threeShake: {fileID: 8300000, guid: 649223bfbbbd944fea9d2e1ea1cc04b1, type: 3}
+  threePop: {fileID: 8300000, guid: bac8e6ff8ad1940639ff2a7cea6fe25b, type: 3}
+  addToBasket: {fileID: 8300000, guid: 2491fca5b53244a0eacd29127eba736e, type: 3}
+  wrongFruit:
+  - {fileID: 8300000, guid: 4e247850cb7184964aa0155b90abb0c8, type: 3}
+  - {fileID: 8300000, guid: ebc46d1adf72b4bd8a13b2c9fca4d3ee, type: 3}
+  - {fileID: 8300000, guid: 7be78627bde4043898a3d73846810326, type: 3}
+  sparcleSystem: {fileID: 19838180, guid: 9b1d9b99d30304a3882479cc391e87c2, type: 2}
+  blockGrabing: 1
+  grapped: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 146388}
+  m_IsPrefabParent: 1

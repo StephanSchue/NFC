@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 856083ab2975444f6bd2ac3baf4eff6d
+timeCreated: 1470213584
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: FishingRod
+    100002: //RootNode
+    100004: FR_Jnt_A
+    100006: FR_Jnt_B
+    100008: FR_Jnt_C
+    100010: FR_Jnt_D
+    100012: FR_Jnt_END
+    100014: Master_c
+    400000: FishingRod
+    400002: //RootNode
+    400004: FR_Jnt_A
+    400006: FR_Jnt_B
+    400008: FR_Jnt_C
+    400010: FR_Jnt_D
+    400012: FR_Jnt_END
+    400014: Master_c
+    4300000: FishingRod
+    7400000: FishingRodStart
+    9500000: //RootNode
+    13700000: FishingRod
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FishingRodStart
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 83
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FishingRod
+        weight: 1
+      - path: Master_c
+        weight: 1
+      - path: Master_c/FR_Jnt_A
+        weight: 1
+      - path: Master_c/FR_Jnt_A/FR_Jnt_B
+        weight: 1
+      - path: Master_c/FR_Jnt_A/FR_Jnt_B/FR_Jnt_C
+        weight: 1
+      - path: Master_c/FR_Jnt_A/FR_Jnt_B/FR_Jnt_C/FR_Jnt_D
+        weight: 1
+      - path: Master_c/FR_Jnt_A/FR_Jnt_B/FR_Jnt_C/FR_Jnt_D/FR_Jnt_END
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

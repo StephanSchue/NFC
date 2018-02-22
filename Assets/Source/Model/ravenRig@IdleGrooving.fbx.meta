@@ -1,0 +1,2480 @@
+fileFormatVersion: 2
+guid: 735255c6282414f98a07b2d9ed805b9d
+timeCreated: 1467280243
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ankle_L
+    100002: Ankle_R
+    100004: beak1_M
+    100006: beak1End_M
+    100008: beak_M
+    100010: Chest_M
+    100012: DeformationSystem
+    100014: Elbow_L
+    100016: Elbow_R
+    100018: ElbowPart1_L
+    100020: ElbowPart1_R
+    100022: Eye_base_M
+    100024: Eye_L
+    100026: Eye_R
+    100028: Eyebrow1_L
+    100030: Eyebrow1_R
+    100032: Eyebrow1End_L
+    100034: Eyebrow1End_R
+    100036: Eyebrow_L
+    100038: Eyebrow_R
+    100040: EyeEnd_L
+    100042: EyeEnd_R
+    100044: FKAnkle_L
+    100046: FKAnkle_R
+    100048: FKbeak1_M
+    100050: FKbeak_M
+    100052: FKChest_M
+    100054: FKElbow_L
+    100056: FKElbow_R
+    100058: FKExtraAnkle_L
+    100060: FKExtraAnkle_R
+    100062: FKExtrabeak1_M
+    100064: FKExtrabeak_M
+    100066: FKExtraChest_M
+    100068: FKExtraElbow_L
+    100070: FKExtraElbow_R
+    100072: FKExtraEye_base_M
+    100074: FKExtraEye_L
+    100076: FKExtraEye_R
+    100078: FKExtraEyebrow1_L
+    100080: FKExtraEyebrow1_R
+    100082: FKExtraEyebrow_L
+    100084: FKExtraEyebrow_R
+    100086: FKExtraHead_M
+    100088: FKExtraHip_L
+    100090: FKExtraHip_R
+    100092: FKExtraIndexFinger1_L
+    100094: FKExtraIndexFinger1_R
+    100096: FKExtraIndexFinger2_L
+    100098: FKExtraIndexFinger2_R
+    100100: FKExtraIndexFinger3_L
+    100102: FKExtraIndexFinger3_R
+    100104: FKExtraIndexToe1_L
+    100106: FKExtraIndexToe1_R
+    100108: FKExtraIndexToe2_L
+    100110: FKExtraIndexToe2_R
+    100112: FKExtraKnee_L
+    100114: FKExtraKnee_R
+    100116: FKExtraMiddleFinger1_L
+    100118: FKExtraMiddleFinger1_R
+    100120: FKExtraMiddleFinger2_L
+    100122: FKExtraMiddleFinger2_R
+    100124: FKExtraMiddleFinger3_L
+    100126: FKExtraMiddleFinger3_R
+    100128: FKExtraMiddleToe1_L
+    100130: FKExtraMiddleToe1_R
+    100132: FKExtraMiddleToe2_L
+    100134: FKExtraMiddleToe2_R
+    100136: FKExtraNeck_M
+    100138: FKExtraPinkyFinger1_L
+    100140: FKExtraPinkyFinger1_R
+    100142: FKExtraPinkyFinger2_L
+    100144: FKExtraPinkyFinger2_R
+    100146: FKExtraPinkyFinger3_L
+    100148: FKExtraPinkyFinger3_R
+    100150: FKExtraPinkyToe1_L
+    100152: FKExtraPinkyToe1_R
+    100154: FKExtraPinkyToe2_L
+    100156: FKExtraPinkyToe2_R
+    100158: FKExtraRoot_M
+    100160: FKExtraScapula_L
+    100162: FKExtraScapula_R
+    100164: FKExtraShoulder_L
+    100166: FKExtraShoulder_R
+    100168: FKExtraSpine1_M
+    100170: FKExtraTail1_M
+    100172: FKExtraTail2_M
+    100174: FKExtraTail_M
+    100176: FKExtraThumbFinger1_L
+    100178: FKExtraThumbFinger1_R
+    100180: FKExtraThumbFinger2_L
+    100182: FKExtraThumbFinger2_R
+    100184: FKExtraThumbFinger3_L
+    100186: FKExtraThumbFinger3_R
+    100188: FKExtraThumbToe1_L
+    100190: FKExtraThumbToe1_R
+    100192: FKExtraThumbToe2_L
+    100194: FKExtraThumbToe2_R
+    100196: FKExtraUpperBeak1_M
+    100198: FKExtraUpperBeak_M
+    100200: FKExtraWrist_L
+    100202: FKExtraWrist_R
+    100204: FKEye_base_M
+    100206: FKEye_L
+    100208: FKEye_R
+    100210: FKEyebrow1_L
+    100212: FKEyebrow1_R
+    100214: FKEyebrow_L
+    100216: FKEyebrow_R
+    100218: FKGlobalNeck_M
+    100220: FKGlobalShoulder_L
+    100222: FKGlobalShoulder_R
+    100224: FKGlobalStaticNeck_M
+    100226: FKGlobalStaticShoulder_L
+    100228: FKGlobalStaticShoulder_R
+    100230: FKHead_M
+    100232: FKHip_L
+    100234: FKHip_R
+    100236: FKIKArm_L
+    100238: FKIKArm_R
+    100240: FKIKParentConstraintArm_L
+    100242: FKIKParentConstraintArm_R
+    100244: FKIKParentConstraintSpine_M
+    100246: FKIKSpine_M
+    100248: FKIKSystem
+    100250: FKIndexFinger1_L
+    100252: FKIndexFinger1_R
+    100254: FKIndexFinger2_L
+    100256: FKIndexFinger2_R
+    100258: FKIndexFinger3_L
+    100260: FKIndexFinger3_R
+    100262: FKIndexToe1_L
+    100264: FKIndexToe1_R
+    100266: FKIndexToe2_L
+    100268: FKIndexToe2_R
+    100270: FKInIKExtraLeg_L
+    100272: FKInIKExtraLeg_R
+    100274: FKInIKLeg_L
+    100276: FKInIKLeg_R
+    100278: FKInIKOffsetLeg_L
+    100280: FKInIKOffsetLeg_R
+    100282: FKKnee_L
+    100284: FKKnee_R
+    100286: FKMiddleFinger1_L
+    100288: FKMiddleFinger1_R
+    100290: FKMiddleFinger2_L
+    100292: FKMiddleFinger2_R
+    100294: FKMiddleFinger3_L
+    100296: FKMiddleFinger3_R
+    100298: FKMiddleToe1_L
+    100300: FKMiddleToe1_R
+    100302: FKMiddleToe2_L
+    100304: FKMiddleToe2_R
+    100306: FKNeck_M
+    100308: FKOffsetAnkle_L
+    100310: FKOffsetAnkle_R
+    100312: FKOffsetbeak1_M
+    100314: FKOffsetbeak_M
+    100316: FKOffsetChest_M
+    100318: FKOffsetElbow_L
+    100320: FKOffsetElbow_R
+    100322: FKOffsetEye_base_M
+    100324: FKOffsetEye_L
+    100326: FKOffsetEye_R
+    100328: FKOffsetEyebrow1_L
+    100330: FKOffsetEyebrow1_R
+    100332: FKOffsetEyebrow_L
+    100334: FKOffsetEyebrow_R
+    100336: FKOffsetHead_M
+    100338: FKOffsetHip_L
+    100340: FKOffsetHip_R
+    100342: FKOffsetIndexFinger1_L
+    100344: FKOffsetIndexFinger1_R
+    100346: FKOffsetIndexFinger2_L
+    100348: FKOffsetIndexFinger2_R
+    100350: FKOffsetIndexFinger3_L
+    100352: FKOffsetIndexFinger3_R
+    100354: FKOffsetIndexToe1_L
+    100356: FKOffsetIndexToe1_R
+    100358: FKOffsetIndexToe2_L
+    100360: FKOffsetIndexToe2_R
+    100362: FKOffsetKnee_L
+    100364: FKOffsetKnee_R
+    100366: FKOffsetMiddleFinger1_L
+    100368: FKOffsetMiddleFinger1_R
+    100370: FKOffsetMiddleFinger2_L
+    100372: FKOffsetMiddleFinger2_R
+    100374: FKOffsetMiddleFinger3_L
+    100376: FKOffsetMiddleFinger3_R
+    100378: FKOffsetMiddleToe1_L
+    100380: FKOffsetMiddleToe1_R
+    100382: FKOffsetMiddleToe2_L
+    100384: FKOffsetMiddleToe2_R
+    100386: FKOffsetNeck_M
+    100388: FKOffsetPinkyFinger1_L
+    100390: FKOffsetPinkyFinger1_R
+    100392: FKOffsetPinkyFinger2_L
+    100394: FKOffsetPinkyFinger2_R
+    100396: FKOffsetPinkyFinger3_L
+    100398: FKOffsetPinkyFinger3_R
+    100400: FKOffsetPinkyToe1_L
+    100402: FKOffsetPinkyToe1_R
+    100404: FKOffsetPinkyToe2_L
+    100406: FKOffsetPinkyToe2_R
+    100408: FKOffsetRoot_M
+    100410: FKOffsetScapula_L
+    100412: FKOffsetScapula_R
+    100414: FKOffsetShoulder_L
+    100416: FKOffsetShoulder_R
+    100418: FKOffsetSpine1_M
+    100420: FKOffsetTail1_M
+    100422: FKOffsetTail2_M
+    100424: FKOffsetTail_M
+    100426: FKOffsetThumbFinger1_L
+    100428: FKOffsetThumbFinger1_R
+    100430: FKOffsetThumbFinger2_L
+    100432: FKOffsetThumbFinger2_R
+    100434: FKOffsetThumbFinger3_L
+    100436: FKOffsetThumbFinger3_R
+    100438: FKOffsetThumbToe1_L
+    100440: FKOffsetThumbToe1_R
+    100442: FKOffsetThumbToe2_L
+    100444: FKOffsetThumbToe2_R
+    100446: FKOffsetUpperBeak1_M
+    100448: FKOffsetUpperBeak_M
+    100450: FKOffsetWrist_L
+    100452: FKOffsetWrist_R
+    100454: FKParentConstraintToAnkle_L
+    100456: FKParentConstraintToAnkle_R
+    100458: FKParentConstraintToChest_M
+    100460: FKParentConstraintToHead_M
+    100462: FKParentConstraintToRoot_M
+    100464: FKParentConstraintToToes_L
+    100466: FKParentConstraintToToes_R
+    100468: FKParentConstraintToWrist_L
+    100470: FKParentConstraintToWrist_R
+    100472: FKPinkyFinger1_L
+    100474: FKPinkyFinger1_R
+    100476: FKPinkyFinger2_L
+    100478: FKPinkyFinger2_R
+    100480: FKPinkyFinger3_L
+    100482: FKPinkyFinger3_R
+    100484: FKPinkyToe1_L
+    100486: FKPinkyToe1_R
+    100488: FKPinkyToe2_L
+    100490: FKPinkyToe2_R
+    100492: FKRoot_M
+    100494: FKScapula_L
+    100496: FKScapula_R
+    100498: FKShoulder_L
+    100500: FKShoulder_R
+    100502: FKSpine1_M
+    100504: FKSystem
+    100506: FKTail1_M
+    100508: FKTail2_M
+    100510: FKTail_M
+    100512: FKThumbFinger1_L
+    100514: FKThumbFinger1_R
+    100516: FKThumbFinger2_L
+    100518: FKThumbFinger2_R
+    100520: FKThumbFinger3_L
+    100522: FKThumbFinger3_R
+    100524: FKThumbToe1_L
+    100526: FKThumbToe1_R
+    100528: FKThumbToe2_L
+    100530: FKThumbToe2_R
+    100532: FKUpperBeak1_M
+    100534: FKUpperBeak_M
+    100536: FKWrist_L
+    100538: FKWrist_R
+    100540: FKXbeak_M
+    100542: FKXElbow_L
+    100544: FKXElbow_R
+    100546: FKXEye_base_M
+    100548: FKXEyebrow_L
+    100550: FKXEyebrow_R
+    100552: FKXHip_L
+    100554: FKXHip_R
+    100556: FKXIndexFinger1_L
+    100558: FKXIndexFinger1_R
+    100560: FKXIndexFinger2_L
+    100562: FKXIndexFinger2_R
+    100564: FKXIndexToe1_L
+    100566: FKXIndexToe1_R
+    100568: FKXKnee_L
+    100570: FKXKnee_R
+    100572: FKXMiddleFinger1_L
+    100574: FKXMiddleFinger1_R
+    100576: FKXMiddleFinger2_L
+    100578: FKXMiddleFinger2_R
+    100580: FKXMiddleToe1_L
+    100582: FKXMiddleToe1_R
+    100584: FKXNeck_M
+    100586: FKXOffsetbeak_M
+    100588: FKXOffsetElbow_L
+    100590: FKXOffsetElbow_R
+    100592: FKXOffsetEye_base_M
+    100594: FKXOffsetEyebrow_L
+    100596: FKXOffsetEyebrow_R
+    100598: FKXOffsetHip_L
+    100600: FKXOffsetHip_R
+    100602: FKXOffsetIndexFinger1_L
+    100604: FKXOffsetIndexFinger1_R
+    100606: FKXOffsetIndexFinger2_L
+    100608: FKXOffsetIndexFinger2_R
+    100610: FKXOffsetIndexToe1_L
+    100612: FKXOffsetIndexToe1_R
+    100614: FKXOffsetKnee_L
+    100616: FKXOffsetKnee_R
+    100618: FKXOffsetMiddleFinger1_L
+    100620: FKXOffsetMiddleFinger1_R
+    100622: FKXOffsetMiddleFinger2_L
+    100624: FKXOffsetMiddleFinger2_R
+    100626: FKXOffsetMiddleToe1_L
+    100628: FKXOffsetMiddleToe1_R
+    100630: FKXOffsetNeck_M
+    100632: FKXOffsetPinkyFinger1_L
+    100634: FKXOffsetPinkyFinger1_R
+    100636: FKXOffsetPinkyFinger2_L
+    100638: FKXOffsetPinkyFinger2_R
+    100640: FKXOffsetPinkyToe1_L
+    100642: FKXOffsetPinkyToe1_R
+    100644: FKXOffsetRoot_M
+    100646: FKXOffsetScapula_L
+    100648: FKXOffsetScapula_R
+    100650: FKXOffsetShoulder_L
+    100652: FKXOffsetShoulder_R
+    100654: FKXOffsetSpine1_M
+    100656: FKXOffsetTail1_M
+    100658: FKXOffsetTail_M
+    100660: FKXOffsetThumbFinger1_L
+    100662: FKXOffsetThumbFinger1_R
+    100664: FKXOffsetThumbFinger2_L
+    100666: FKXOffsetThumbFinger2_R
+    100668: FKXOffsetThumbToe1_L
+    100670: FKXOffsetThumbToe1_R
+    100672: FKXOffsetUpperBeak_M
+    100674: FKXPinkyFinger1_L
+    100676: FKXPinkyFinger1_R
+    100678: FKXPinkyFinger2_L
+    100680: FKXPinkyFinger2_R
+    100682: FKXPinkyToe1_L
+    100684: FKXPinkyToe1_R
+    100686: FKXRoot_M
+    100688: FKXScapula_L
+    100690: FKXScapula_R
+    100692: FKXShoulder_L
+    100694: FKXShoulder_R
+    100696: FKXSpine1_M
+    100698: FKXTail1_M
+    100700: FKXTail_M
+    100702: FKXThumbFinger1_L
+    100704: FKXThumbFinger1_R
+    100706: FKXThumbFinger2_L
+    100708: FKXThumbFinger2_R
+    100710: FKXThumbToe1_L
+    100712: FKXThumbToe1_R
+    100714: FKXUpperBeak_M
+    100716: Head_M
+    100718: HeadEnd_M
+    100720: Hip_L
+    100722: Hip_R
+    100724: HipSwingerGroupOffsetRoot_M
+    100726: HipSwingerGroupRoot_M
+    100728: HipSwingerStabalizeRoot_M
+    100730: IKArm_L
+    100732: IKArm_R
+    100734: IKCurve
+    100736: IKdistanceArm_L
+    100738: IKdistanceArm_R
+    100740: IKdistanceLeg_L
+    100742: IKdistanceLeg_R
+    100744: IKExtraArm_L
+    100746: IKExtraArm_R
+    100748: IKExtraLeg_L
+    100750: IKExtraLeg_R
+    100752: IKExtraSpine1_M
+    100754: IKExtraSpine2_M
+    100756: IKExtraSpine3_M
+    100758: IKHandle
+    100760: IKLeg_L
+    100762: IKLeg_R
+    100764: IKLegFootRockInnerPivot_L
+    100766: IKLegFootRockInnerPivot_R
+    100768: IKLegFootRockOuterPivot_L
+    100770: IKLegFootRockOuterPivot_R
+    100772: IKLegFootRockReverse_L
+    100774: IKLegFootRockReverse_R
+    100776: IKMessure
+    100778: IKmessureConstrainToArm_L
+    100780: IKmessureConstrainToArm_R
+    100782: IKmessureConstrainToLeg_L
+    100784: IKmessureConstrainToLeg_R
+    100786: IKmessureLoc1Arm_L
+    100788: IKmessureLoc1Arm_R
+    100790: IKmessureLoc1Leg_L
+    100792: IKmessureLoc1Leg_R
+    100794: IKmessureLoc2Arm_L
+    100796: IKmessureLoc2Arm_R
+    100798: IKmessureLoc2Leg_L
+    100800: IKmessureLoc2Leg_R
+    100802: IKOffsetArm_L
+    100804: IKOffsetArm_R
+    100806: IKOffsetLeg_L
+    100808: IKOffsetLeg_R
+    100810: IKOffsetSpine1_M
+    100812: IKOffsetSpine2_M
+    100814: IKOffsetSpine3_M
+    100816: IKRootConstraint
+    100818: IKScalerChest_M
+    100820: IKScalerRoot_M
+    100822: IKScalerSpine1_M
+    100824: IKSpine1_M
+    100826: IKSpine2_M
+    100828: IKSpine3_M
+    100830: IKSpineCurve_M
+    100832: IKSpineLocator0_M
+    100834: IKSpineLocator1_M
+    100836: IKSpineLocator2_M
+    100838: IKSpineLocator3_M
+    100840: IKSpineLocator4_M
+    100842: IKStiffOrientSpine1_M
+    100844: IKStiffOrientSpine3_M
+    100846: IKSystem
+    100848: IndexFinger1_L
+    100850: IndexFinger1_R
+    100852: IndexFinger2_L
+    100854: IndexFinger2_R
+    100856: IndexFinger3_L
+    100858: IndexFinger3_R
+    100860: IndexFinger3End_L
+    100862: IndexFinger3End_R
+    100864: IndexToe1_L
+    100866: IndexToe1_R
+    100868: IndexToe2_L
+    100870: IndexToe2_R
+    100872: IndexToe2End_L
+    100874: IndexToe2End_R
+    100876: Knee_L
+    100878: Knee_R
+    100880: legMove_L
+    100882: legMove_R
+    100884: LowerEyelid_L
+    100886: LowerEyelid_L_End
+    100888: LowerEyelid_R
+    100890: LowerEyelid_R_End
+    100892: Main
+    100894: MiddleFinger1_L
+    100896: MiddleFinger1_R
+    100898: MiddleFinger2_L
+    100900: MiddleFinger2_R
+    100902: MiddleFinger3_L
+    100904: MiddleFinger3_R
+    100906: MiddleFinger3End_L
+    100908: MiddleFinger3End_R
+    100910: MiddleToe1_L
+    100912: MiddleToe1_R
+    100914: MiddleToe2_L
+    100916: MiddleToe2_R
+    100918: MiddleToe2End_L
+    100920: MiddleToe2End_R
+    100922: MotionSystem
+    100924: Neck_M
+    100926: NeckPart1_M
+    100928: PinkyFinger1_L
+    100930: PinkyFinger1_R
+    100932: PinkyFinger2_L
+    100934: PinkyFinger2_R
+    100936: PinkyFinger3_L
+    100938: PinkyFinger3_R
+    100940: PinkyFinger3End_L
+    100942: PinkyFinger3End_R
+    100944: PinkyToe1_L
+    100946: PinkyToe1_R
+    100948: PinkyToe2_L
+    100950: PinkyToe2_R
+    100952: PinkyToe2End_L
+    100954: PinkyToe2End_R
+    100956: Raven_Geo
+    100958: Raven_Rig
+    100960: RavenLeftEye
+    100962: RavenLeftEye_Group
+    100964: RavenLeftEye_LowerEyelid
+    100966: RavenLeftEye_UpperEyelid
+    100968: //RootNode
+    100970: RavenRightEye
+    100972: RavenRightEye_Group
+    100974: RavenRightEye_LowerEyelid
+    100976: RavenRightEye_UpperEyelid
+    100978: RollExtraHeelLeg_L
+    100980: RollExtraHeelLeg_R
+    100982: RollExtraToes_L
+    100984: RollExtraToes_R
+    100986: RollExtraToesEnd_L
+    100988: RollExtraToesEnd_R
+    100990: RollHeelLeg_L
+    100992: RollHeelLeg_R
+    100994: RollOffsetHeelLeg_L
+    100996: RollOffsetHeelLeg_R
+    100998: RollOffsetOffsetHeelLeg_L
+    101000: RollOffsetOffsetHeelLeg_R
+    101002: RollOffsetToes_L
+    101004: RollOffsetToes_R
+    101006: RollOffsetToesEnd_L
+    101008: RollOffsetToesEnd_R
+    101010: RollToes_L
+    101012: RollToes_R
+    101014: RollToesEnd_L
+    101016: RollToesEnd_R
+    101018: Root_M
+    101020: Scapula_L
+    101022: Scapula_R
+    101024: SDK1FKIndexFinger1_L
+    101026: SDK1FKIndexFinger1_R
+    101028: SDK1FKIndexFinger2_L
+    101030: SDK1FKIndexFinger2_R
+    101032: SDK1FKIndexFinger3_L
+    101034: SDK1FKIndexFinger3_R
+    101036: SDK1FKIndexToe1_L
+    101038: SDK1FKIndexToe1_R
+    101040: SDK1FKIndexToe2_L
+    101042: SDK1FKIndexToe2_R
+    101044: SDK1FKMiddleFinger1_L
+    101046: SDK1FKMiddleFinger1_R
+    101048: SDK1FKMiddleFinger2_L
+    101050: SDK1FKMiddleFinger2_R
+    101052: SDK1FKMiddleFinger3_L
+    101054: SDK1FKMiddleFinger3_R
+    101056: SDK1FKMiddleToe1_L
+    101058: SDK1FKMiddleToe1_R
+    101060: SDK1FKMiddleToe2_L
+    101062: SDK1FKMiddleToe2_R
+    101064: SDK1FKPinkyFinger1_L
+    101066: SDK1FKPinkyFinger1_R
+    101068: SDK1FKPinkyFinger2_L
+    101070: SDK1FKPinkyFinger2_R
+    101072: SDK1FKPinkyFinger3_L
+    101074: SDK1FKPinkyFinger3_R
+    101076: SDK1FKPinkyToe1_L
+    101078: SDK1FKPinkyToe1_R
+    101080: SDK1FKPinkyToe2_L
+    101082: SDK1FKPinkyToe2_R
+    101084: SDK1FKThumbFinger2_L
+    101086: SDK1FKThumbFinger2_R
+    101088: SDK1FKThumbFinger3_L
+    101090: SDK1FKThumbFinger3_R
+    101092: SDK1FKThumbToe2_L
+    101094: SDK1FKThumbToe2_R
+    101096: SDK2FKIndexFinger1_L
+    101098: SDK2FKIndexFinger1_R
+    101100: SDK2FKIndexToe1_L
+    101102: SDK2FKIndexToe1_R
+    101104: SDK2FKPinkyFinger1_L
+    101106: SDK2FKPinkyFinger1_R
+    101108: SDK2FKPinkyToe1_L
+    101110: SDK2FKPinkyToe1_R
+    101112: Shoulder_L
+    101114: Shoulder_R
+    101116: Spine1_M
+    101118: Tail1_M
+    101120: Tail2_M
+    101122: Tail2End_M
+    101124: Tail_M
+    101126: ThumbFinger1_L
+    101128: ThumbFinger1_R
+    101130: ThumbFinger2_L
+    101132: ThumbFinger2_R
+    101134: ThumbFinger3_L
+    101136: ThumbFinger3_R
+    101138: ThumbFinger3End_L
+    101140: ThumbFinger3End_R
+    101142: ThumbToe1_L
+    101144: ThumbToe1_R
+    101146: ThumbToe2_L
+    101148: ThumbToe2_R
+    101150: ThumbToe3_L
+    101152: ThumbToe3_R
+    101154: ThumbToe3End_L
+    101156: ThumbToe3End_R
+    101158: Toes_L
+    101160: Toes_R
+    101162: ToesEnd_L
+    101164: ToesEnd_R
+    101166: Tongue
+    101168: UpperBeak1_M
+    101170: UpperBeak1End_M
+    101172: UpperBeak_M
+    101174: UpperEyelid_L
+    101176: UpperEyelid_L_End
+    101178: UpperEyelid_R
+    101180: UpperEyelid_R_End
+    101182: Wrist_L
+    101184: Wrist_R
+    400000: Ankle_L
+    400002: Ankle_R
+    400004: beak1_M
+    400006: beak1End_M
+    400008: beak_M
+    400010: Chest_M
+    400012: DeformationSystem
+    400014: Elbow_L
+    400016: Elbow_R
+    400018: ElbowPart1_L
+    400020: ElbowPart1_R
+    400022: Eye_base_M
+    400024: Eye_L
+    400026: Eye_R
+    400028: Eyebrow1_L
+    400030: Eyebrow1_R
+    400032: Eyebrow1End_L
+    400034: Eyebrow1End_R
+    400036: Eyebrow_L
+    400038: Eyebrow_R
+    400040: EyeEnd_L
+    400042: EyeEnd_R
+    400044: FKAnkle_L
+    400046: FKAnkle_R
+    400048: FKbeak1_M
+    400050: FKbeak_M
+    400052: FKChest_M
+    400054: FKElbow_L
+    400056: FKElbow_R
+    400058: FKExtraAnkle_L
+    400060: FKExtraAnkle_R
+    400062: FKExtrabeak1_M
+    400064: FKExtrabeak_M
+    400066: FKExtraChest_M
+    400068: FKExtraElbow_L
+    400070: FKExtraElbow_R
+    400072: FKExtraEye_base_M
+    400074: FKExtraEye_L
+    400076: FKExtraEye_R
+    400078: FKExtraEyebrow1_L
+    400080: FKExtraEyebrow1_R
+    400082: FKExtraEyebrow_L
+    400084: FKExtraEyebrow_R
+    400086: FKExtraHead_M
+    400088: FKExtraHip_L
+    400090: FKExtraHip_R
+    400092: FKExtraIndexFinger1_L
+    400094: FKExtraIndexFinger1_R
+    400096: FKExtraIndexFinger2_L
+    400098: FKExtraIndexFinger2_R
+    400100: FKExtraIndexFinger3_L
+    400102: FKExtraIndexFinger3_R
+    400104: FKExtraIndexToe1_L
+    400106: FKExtraIndexToe1_R
+    400108: FKExtraIndexToe2_L
+    400110: FKExtraIndexToe2_R
+    400112: FKExtraKnee_L
+    400114: FKExtraKnee_R
+    400116: FKExtraMiddleFinger1_L
+    400118: FKExtraMiddleFinger1_R
+    400120: FKExtraMiddleFinger2_L
+    400122: FKExtraMiddleFinger2_R
+    400124: FKExtraMiddleFinger3_L
+    400126: FKExtraMiddleFinger3_R
+    400128: FKExtraMiddleToe1_L
+    400130: FKExtraMiddleToe1_R
+    400132: FKExtraMiddleToe2_L
+    400134: FKExtraMiddleToe2_R
+    400136: FKExtraNeck_M
+    400138: FKExtraPinkyFinger1_L
+    400140: FKExtraPinkyFinger1_R
+    400142: FKExtraPinkyFinger2_L
+    400144: FKExtraPinkyFinger2_R
+    400146: FKExtraPinkyFinger3_L
+    400148: FKExtraPinkyFinger3_R
+    400150: FKExtraPinkyToe1_L
+    400152: FKExtraPinkyToe1_R
+    400154: FKExtraPinkyToe2_L
+    400156: FKExtraPinkyToe2_R
+    400158: FKExtraRoot_M
+    400160: FKExtraScapula_L
+    400162: FKExtraScapula_R
+    400164: FKExtraShoulder_L
+    400166: FKExtraShoulder_R
+    400168: FKExtraSpine1_M
+    400170: FKExtraTail1_M
+    400172: FKExtraTail2_M
+    400174: FKExtraTail_M
+    400176: FKExtraThumbFinger1_L
+    400178: FKExtraThumbFinger1_R
+    400180: FKExtraThumbFinger2_L
+    400182: FKExtraThumbFinger2_R
+    400184: FKExtraThumbFinger3_L
+    400186: FKExtraThumbFinger3_R
+    400188: FKExtraThumbToe1_L
+    400190: FKExtraThumbToe1_R
+    400192: FKExtraThumbToe2_L
+    400194: FKExtraThumbToe2_R
+    400196: FKExtraUpperBeak1_M
+    400198: FKExtraUpperBeak_M
+    400200: FKExtraWrist_L
+    400202: FKExtraWrist_R
+    400204: FKEye_base_M
+    400206: FKEye_L
+    400208: FKEye_R
+    400210: FKEyebrow1_L
+    400212: FKEyebrow1_R
+    400214: FKEyebrow_L
+    400216: FKEyebrow_R
+    400218: FKGlobalNeck_M
+    400220: FKGlobalShoulder_L
+    400222: FKGlobalShoulder_R
+    400224: FKGlobalStaticNeck_M
+    400226: FKGlobalStaticShoulder_L
+    400228: FKGlobalStaticShoulder_R
+    400230: FKHead_M
+    400232: FKHip_L
+    400234: FKHip_R
+    400236: FKIKArm_L
+    400238: FKIKArm_R
+    400240: FKIKParentConstraintArm_L
+    400242: FKIKParentConstraintArm_R
+    400244: FKIKParentConstraintSpine_M
+    400246: FKIKSpine_M
+    400248: FKIKSystem
+    400250: FKIndexFinger1_L
+    400252: FKIndexFinger1_R
+    400254: FKIndexFinger2_L
+    400256: FKIndexFinger2_R
+    400258: FKIndexFinger3_L
+    400260: FKIndexFinger3_R
+    400262: FKIndexToe1_L
+    400264: FKIndexToe1_R
+    400266: FKIndexToe2_L
+    400268: FKIndexToe2_R
+    400270: FKInIKExtraLeg_L
+    400272: FKInIKExtraLeg_R
+    400274: FKInIKLeg_L
+    400276: FKInIKLeg_R
+    400278: FKInIKOffsetLeg_L
+    400280: FKInIKOffsetLeg_R
+    400282: FKKnee_L
+    400284: FKKnee_R
+    400286: FKMiddleFinger1_L
+    400288: FKMiddleFinger1_R
+    400290: FKMiddleFinger2_L
+    400292: FKMiddleFinger2_R
+    400294: FKMiddleFinger3_L
+    400296: FKMiddleFinger3_R
+    400298: FKMiddleToe1_L
+    400300: FKMiddleToe1_R
+    400302: FKMiddleToe2_L
+    400304: FKMiddleToe2_R
+    400306: FKNeck_M
+    400308: FKOffsetAnkle_L
+    400310: FKOffsetAnkle_R
+    400312: FKOffsetbeak1_M
+    400314: FKOffsetbeak_M
+    400316: FKOffsetChest_M
+    400318: FKOffsetElbow_L
+    400320: FKOffsetElbow_R
+    400322: FKOffsetEye_base_M
+    400324: FKOffsetEye_L
+    400326: FKOffsetEye_R
+    400328: FKOffsetEyebrow1_L
+    400330: FKOffsetEyebrow1_R
+    400332: FKOffsetEyebrow_L
+    400334: FKOffsetEyebrow_R
+    400336: FKOffsetHead_M
+    400338: FKOffsetHip_L
+    400340: FKOffsetHip_R
+    400342: FKOffsetIndexFinger1_L
+    400344: FKOffsetIndexFinger1_R
+    400346: FKOffsetIndexFinger2_L
+    400348: FKOffsetIndexFinger2_R
+    400350: FKOffsetIndexFinger3_L
+    400352: FKOffsetIndexFinger3_R
+    400354: FKOffsetIndexToe1_L
+    400356: FKOffsetIndexToe1_R
+    400358: FKOffsetIndexToe2_L
+    400360: FKOffsetIndexToe2_R
+    400362: FKOffsetKnee_L
+    400364: FKOffsetKnee_R
+    400366: FKOffsetMiddleFinger1_L
+    400368: FKOffsetMiddleFinger1_R
+    400370: FKOffsetMiddleFinger2_L
+    400372: FKOffsetMiddleFinger2_R
+    400374: FKOffsetMiddleFinger3_L
+    400376: FKOffsetMiddleFinger3_R
+    400378: FKOffsetMiddleToe1_L
+    400380: FKOffsetMiddleToe1_R
+    400382: FKOffsetMiddleToe2_L
+    400384: FKOffsetMiddleToe2_R
+    400386: FKOffsetNeck_M
+    400388: FKOffsetPinkyFinger1_L
+    400390: FKOffsetPinkyFinger1_R
+    400392: FKOffsetPinkyFinger2_L
+    400394: FKOffsetPinkyFinger2_R
+    400396: FKOffsetPinkyFinger3_L
+    400398: FKOffsetPinkyFinger3_R
+    400400: FKOffsetPinkyToe1_L
+    400402: FKOffsetPinkyToe1_R
+    400404: FKOffsetPinkyToe2_L
+    400406: FKOffsetPinkyToe2_R
+    400408: FKOffsetRoot_M
+    400410: FKOffsetScapula_L
+    400412: FKOffsetScapula_R
+    400414: FKOffsetShoulder_L
+    400416: FKOffsetShoulder_R
+    400418: FKOffsetSpine1_M
+    400420: FKOffsetTail1_M
+    400422: FKOffsetTail2_M
+    400424: FKOffsetTail_M
+    400426: FKOffsetThumbFinger1_L
+    400428: FKOffsetThumbFinger1_R
+    400430: FKOffsetThumbFinger2_L
+    400432: FKOffsetThumbFinger2_R
+    400434: FKOffsetThumbFinger3_L
+    400436: FKOffsetThumbFinger3_R
+    400438: FKOffsetThumbToe1_L
+    400440: FKOffsetThumbToe1_R
+    400442: FKOffsetThumbToe2_L
+    400444: FKOffsetThumbToe2_R
+    400446: FKOffsetUpperBeak1_M
+    400448: FKOffsetUpperBeak_M
+    400450: FKOffsetWrist_L
+    400452: FKOffsetWrist_R
+    400454: FKParentConstraintToAnkle_L
+    400456: FKParentConstraintToAnkle_R
+    400458: FKParentConstraintToChest_M
+    400460: FKParentConstraintToHead_M
+    400462: FKParentConstraintToRoot_M
+    400464: FKParentConstraintToToes_L
+    400466: FKParentConstraintToToes_R
+    400468: FKParentConstraintToWrist_L
+    400470: FKParentConstraintToWrist_R
+    400472: FKPinkyFinger1_L
+    400474: FKPinkyFinger1_R
+    400476: FKPinkyFinger2_L
+    400478: FKPinkyFinger2_R
+    400480: FKPinkyFinger3_L
+    400482: FKPinkyFinger3_R
+    400484: FKPinkyToe1_L
+    400486: FKPinkyToe1_R
+    400488: FKPinkyToe2_L
+    400490: FKPinkyToe2_R
+    400492: FKRoot_M
+    400494: FKScapula_L
+    400496: FKScapula_R
+    400498: FKShoulder_L
+    400500: FKShoulder_R
+    400502: FKSpine1_M
+    400504: FKSystem
+    400506: FKTail1_M
+    400508: FKTail2_M
+    400510: FKTail_M
+    400512: FKThumbFinger1_L
+    400514: FKThumbFinger1_R
+    400516: FKThumbFinger2_L
+    400518: FKThumbFinger2_R
+    400520: FKThumbFinger3_L
+    400522: FKThumbFinger3_R
+    400524: FKThumbToe1_L
+    400526: FKThumbToe1_R
+    400528: FKThumbToe2_L
+    400530: FKThumbToe2_R
+    400532: FKUpperBeak1_M
+    400534: FKUpperBeak_M
+    400536: FKWrist_L
+    400538: FKWrist_R
+    400540: FKXbeak_M
+    400542: FKXElbow_L
+    400544: FKXElbow_R
+    400546: FKXEye_base_M
+    400548: FKXEyebrow_L
+    400550: FKXEyebrow_R
+    400552: FKXHip_L
+    400554: FKXHip_R
+    400556: FKXIndexFinger1_L
+    400558: FKXIndexFinger1_R
+    400560: FKXIndexFinger2_L
+    400562: FKXIndexFinger2_R
+    400564: FKXIndexToe1_L
+    400566: FKXIndexToe1_R
+    400568: FKXKnee_L
+    400570: FKXKnee_R
+    400572: FKXMiddleFinger1_L
+    400574: FKXMiddleFinger1_R
+    400576: FKXMiddleFinger2_L
+    400578: FKXMiddleFinger2_R
+    400580: FKXMiddleToe1_L
+    400582: FKXMiddleToe1_R
+    400584: FKXNeck_M
+    400586: FKXOffsetbeak_M
+    400588: FKXOffsetElbow_L
+    400590: FKXOffsetElbow_R
+    400592: FKXOffsetEye_base_M
+    400594: FKXOffsetEyebrow_L
+    400596: FKXOffsetEyebrow_R
+    400598: FKXOffsetHip_L
+    400600: FKXOffsetHip_R
+    400602: FKXOffsetIndexFinger1_L
+    400604: FKXOffsetIndexFinger1_R
+    400606: FKXOffsetIndexFinger2_L
+    400608: FKXOffsetIndexFinger2_R
+    400610: FKXOffsetIndexToe1_L
+    400612: FKXOffsetIndexToe1_R
+    400614: FKXOffsetKnee_L
+    400616: FKXOffsetKnee_R
+    400618: FKXOffsetMiddleFinger1_L
+    400620: FKXOffsetMiddleFinger1_R
+    400622: FKXOffsetMiddleFinger2_L
+    400624: FKXOffsetMiddleFinger2_R
+    400626: FKXOffsetMiddleToe1_L
+    400628: FKXOffsetMiddleToe1_R
+    400630: FKXOffsetNeck_M
+    400632: FKXOffsetPinkyFinger1_L
+    400634: FKXOffsetPinkyFinger1_R
+    400636: FKXOffsetPinkyFinger2_L
+    400638: FKXOffsetPinkyFinger2_R
+    400640: FKXOffsetPinkyToe1_L
+    400642: FKXOffsetPinkyToe1_R
+    400644: FKXOffsetRoot_M
+    400646: FKXOffsetScapula_L
+    400648: FKXOffsetScapula_R
+    400650: FKXOffsetShoulder_L
+    400652: FKXOffsetShoulder_R
+    400654: FKXOffsetSpine1_M
+    400656: FKXOffsetTail1_M
+    400658: FKXOffsetTail_M
+    400660: FKXOffsetThumbFinger1_L
+    400662: FKXOffsetThumbFinger1_R
+    400664: FKXOffsetThumbFinger2_L
+    400666: FKXOffsetThumbFinger2_R
+    400668: FKXOffsetThumbToe1_L
+    400670: FKXOffsetThumbToe1_R
+    400672: FKXOffsetUpperBeak_M
+    400674: FKXPinkyFinger1_L
+    400676: FKXPinkyFinger1_R
+    400678: FKXPinkyFinger2_L
+    400680: FKXPinkyFinger2_R
+    400682: FKXPinkyToe1_L
+    400684: FKXPinkyToe1_R
+    400686: FKXRoot_M
+    400688: FKXScapula_L
+    400690: FKXScapula_R
+    400692: FKXShoulder_L
+    400694: FKXShoulder_R
+    400696: FKXSpine1_M
+    400698: FKXTail1_M
+    400700: FKXTail_M
+    400702: FKXThumbFinger1_L
+    400704: FKXThumbFinger1_R
+    400706: FKXThumbFinger2_L
+    400708: FKXThumbFinger2_R
+    400710: FKXThumbToe1_L
+    400712: FKXThumbToe1_R
+    400714: FKXUpperBeak_M
+    400716: Head_M
+    400718: HeadEnd_M
+    400720: Hip_L
+    400722: Hip_R
+    400724: HipSwingerGroupOffsetRoot_M
+    400726: HipSwingerGroupRoot_M
+    400728: HipSwingerStabalizeRoot_M
+    400730: IKArm_L
+    400732: IKArm_R
+    400734: IKCurve
+    400736: IKdistanceArm_L
+    400738: IKdistanceArm_R
+    400740: IKdistanceLeg_L
+    400742: IKdistanceLeg_R
+    400744: IKExtraArm_L
+    400746: IKExtraArm_R
+    400748: IKExtraLeg_L
+    400750: IKExtraLeg_R
+    400752: IKExtraSpine1_M
+    400754: IKExtraSpine2_M
+    400756: IKExtraSpine3_M
+    400758: IKHandle
+    400760: IKLeg_L
+    400762: IKLeg_R
+    400764: IKLegFootRockInnerPivot_L
+    400766: IKLegFootRockInnerPivot_R
+    400768: IKLegFootRockOuterPivot_L
+    400770: IKLegFootRockOuterPivot_R
+    400772: IKLegFootRockReverse_L
+    400774: IKLegFootRockReverse_R
+    400776: IKMessure
+    400778: IKmessureConstrainToArm_L
+    400780: IKmessureConstrainToArm_R
+    400782: IKmessureConstrainToLeg_L
+    400784: IKmessureConstrainToLeg_R
+    400786: IKmessureLoc1Arm_L
+    400788: IKmessureLoc1Arm_R
+    400790: IKmessureLoc1Leg_L
+    400792: IKmessureLoc1Leg_R
+    400794: IKmessureLoc2Arm_L
+    400796: IKmessureLoc2Arm_R
+    400798: IKmessureLoc2Leg_L
+    400800: IKmessureLoc2Leg_R
+    400802: IKOffsetArm_L
+    400804: IKOffsetArm_R
+    400806: IKOffsetLeg_L
+    400808: IKOffsetLeg_R
+    400810: IKOffsetSpine1_M
+    400812: IKOffsetSpine2_M
+    400814: IKOffsetSpine3_M
+    400816: IKRootConstraint
+    400818: IKScalerChest_M
+    400820: IKScalerRoot_M
+    400822: IKScalerSpine1_M
+    400824: IKSpine1_M
+    400826: IKSpine2_M
+    400828: IKSpine3_M
+    400830: IKSpineCurve_M
+    400832: IKSpineLocator0_M
+    400834: IKSpineLocator1_M
+    400836: IKSpineLocator2_M
+    400838: IKSpineLocator3_M
+    400840: IKSpineLocator4_M
+    400842: IKStiffOrientSpine1_M
+    400844: IKStiffOrientSpine3_M
+    400846: IKSystem
+    400848: IndexFinger1_L
+    400850: IndexFinger1_R
+    400852: IndexFinger2_L
+    400854: IndexFinger2_R
+    400856: IndexFinger3_L
+    400858: IndexFinger3_R
+    400860: IndexFinger3End_L
+    400862: IndexFinger3End_R
+    400864: IndexToe1_L
+    400866: IndexToe1_R
+    400868: IndexToe2_L
+    400870: IndexToe2_R
+    400872: IndexToe2End_L
+    400874: IndexToe2End_R
+    400876: Knee_L
+    400878: Knee_R
+    400880: legMove_L
+    400882: legMove_R
+    400884: LowerEyelid_L
+    400886: LowerEyelid_L_End
+    400888: LowerEyelid_R
+    400890: LowerEyelid_R_End
+    400892: Main
+    400894: MiddleFinger1_L
+    400896: MiddleFinger1_R
+    400898: MiddleFinger2_L
+    400900: MiddleFinger2_R
+    400902: MiddleFinger3_L
+    400904: MiddleFinger3_R
+    400906: MiddleFinger3End_L
+    400908: MiddleFinger3End_R
+    400910: MiddleToe1_L
+    400912: MiddleToe1_R
+    400914: MiddleToe2_L
+    400916: MiddleToe2_R
+    400918: MiddleToe2End_L
+    400920: MiddleToe2End_R
+    400922: MotionSystem
+    400924: Neck_M
+    400926: NeckPart1_M
+    400928: PinkyFinger1_L
+    400930: PinkyFinger1_R
+    400932: PinkyFinger2_L
+    400934: PinkyFinger2_R
+    400936: PinkyFinger3_L
+    400938: PinkyFinger3_R
+    400940: PinkyFinger3End_L
+    400942: PinkyFinger3End_R
+    400944: PinkyToe1_L
+    400946: PinkyToe1_R
+    400948: PinkyToe2_L
+    400950: PinkyToe2_R
+    400952: PinkyToe2End_L
+    400954: PinkyToe2End_R
+    400956: Raven_Geo
+    400958: Raven_Rig
+    400960: RavenLeftEye
+    400962: RavenLeftEye_Group
+    400964: RavenLeftEye_LowerEyelid
+    400966: RavenLeftEye_UpperEyelid
+    400968: //RootNode
+    400970: RavenRightEye
+    400972: RavenRightEye_Group
+    400974: RavenRightEye_LowerEyelid
+    400976: RavenRightEye_UpperEyelid
+    400978: RollExtraHeelLeg_L
+    400980: RollExtraHeelLeg_R
+    400982: RollExtraToes_L
+    400984: RollExtraToes_R
+    400986: RollExtraToesEnd_L
+    400988: RollExtraToesEnd_R
+    400990: RollHeelLeg_L
+    400992: RollHeelLeg_R
+    400994: RollOffsetHeelLeg_L
+    400996: RollOffsetHeelLeg_R
+    400998: RollOffsetOffsetHeelLeg_L
+    401000: RollOffsetOffsetHeelLeg_R
+    401002: RollOffsetToes_L
+    401004: RollOffsetToes_R
+    401006: RollOffsetToesEnd_L
+    401008: RollOffsetToesEnd_R
+    401010: RollToes_L
+    401012: RollToes_R
+    401014: RollToesEnd_L
+    401016: RollToesEnd_R
+    401018: Root_M
+    401020: Scapula_L
+    401022: Scapula_R
+    401024: SDK1FKIndexFinger1_L
+    401026: SDK1FKIndexFinger1_R
+    401028: SDK1FKIndexFinger2_L
+    401030: SDK1FKIndexFinger2_R
+    401032: SDK1FKIndexFinger3_L
+    401034: SDK1FKIndexFinger3_R
+    401036: SDK1FKIndexToe1_L
+    401038: SDK1FKIndexToe1_R
+    401040: SDK1FKIndexToe2_L
+    401042: SDK1FKIndexToe2_R
+    401044: SDK1FKMiddleFinger1_L
+    401046: SDK1FKMiddleFinger1_R
+    401048: SDK1FKMiddleFinger2_L
+    401050: SDK1FKMiddleFinger2_R
+    401052: SDK1FKMiddleFinger3_L
+    401054: SDK1FKMiddleFinger3_R
+    401056: SDK1FKMiddleToe1_L
+    401058: SDK1FKMiddleToe1_R
+    401060: SDK1FKMiddleToe2_L
+    401062: SDK1FKMiddleToe2_R
+    401064: SDK1FKPinkyFinger1_L
+    401066: SDK1FKPinkyFinger1_R
+    401068: SDK1FKPinkyFinger2_L
+    401070: SDK1FKPinkyFinger2_R
+    401072: SDK1FKPinkyFinger3_L
+    401074: SDK1FKPinkyFinger3_R
+    401076: SDK1FKPinkyToe1_L
+    401078: SDK1FKPinkyToe1_R
+    401080: SDK1FKPinkyToe2_L
+    401082: SDK1FKPinkyToe2_R
+    401084: SDK1FKThumbFinger2_L
+    401086: SDK1FKThumbFinger2_R
+    401088: SDK1FKThumbFinger3_L
+    401090: SDK1FKThumbFinger3_R
+    401092: SDK1FKThumbToe2_L
+    401094: SDK1FKThumbToe2_R
+    401096: SDK2FKIndexFinger1_L
+    401098: SDK2FKIndexFinger1_R
+    401100: SDK2FKIndexToe1_L
+    401102: SDK2FKIndexToe1_R
+    401104: SDK2FKPinkyFinger1_L
+    401106: SDK2FKPinkyFinger1_R
+    401108: SDK2FKPinkyToe1_L
+    401110: SDK2FKPinkyToe1_R
+    401112: Shoulder_L
+    401114: Shoulder_R
+    401116: Spine1_M
+    401118: Tail1_M
+    401120: Tail2_M
+    401122: Tail2End_M
+    401124: Tail_M
+    401126: ThumbFinger1_L
+    401128: ThumbFinger1_R
+    401130: ThumbFinger2_L
+    401132: ThumbFinger2_R
+    401134: ThumbFinger3_L
+    401136: ThumbFinger3_R
+    401138: ThumbFinger3End_L
+    401140: ThumbFinger3End_R
+    401142: ThumbToe1_L
+    401144: ThumbToe1_R
+    401146: ThumbToe2_L
+    401148: ThumbToe2_R
+    401150: ThumbToe3_L
+    401152: ThumbToe3_R
+    401154: ThumbToe3End_L
+    401156: ThumbToe3End_R
+    401158: Toes_L
+    401160: Toes_R
+    401162: ToesEnd_L
+    401164: ToesEnd_R
+    401166: Tongue
+    401168: UpperBeak1_M
+    401170: UpperBeak1End_M
+    401172: UpperBeak_M
+    401174: UpperEyelid_L
+    401176: UpperEyelid_L_End
+    401178: UpperEyelid_R
+    401180: UpperEyelid_R_End
+    401182: Wrist_L
+    401184: Wrist_R
+    7400000: IdleGrooving
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: IdleGrooving
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 256
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: RandomIdle
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Raven_Geo
+        weight: 1
+      - path: Raven_Geo/RavenLeftEye_Group
+        weight: 1
+      - path: Raven_Geo/RavenLeftEye_Group/RavenLeftEye
+        weight: 1
+      - path: Raven_Geo/RavenLeftEye_Group/RavenLeftEye_LowerEyelid
+        weight: 1
+      - path: Raven_Geo/RavenLeftEye_Group/RavenLeftEye_UpperEyelid
+        weight: 1
+      - path: Raven_Geo/RavenRightEye_Group
+        weight: 1
+      - path: Raven_Geo/RavenRightEye_Group/RavenRightEye
+        weight: 1
+      - path: Raven_Geo/RavenRightEye_Group/RavenRightEye_LowerEyelid
+        weight: 1
+      - path: Raven_Geo/RavenRightEye_Group/RavenRightEye_UpperEyelid
+        weight: 1
+      - path: Raven_Rig
+        weight: 1
+      - path: Raven_Rig/Main
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/ThumbToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/ThumbToe1_L/ThumbToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/ThumbToe1_L/ThumbToe2_L/ThumbToe3_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/ThumbToe1_L/ThumbToe2_L/ThumbToe3_L/ThumbToe3End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/IndexToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/IndexToe1_L/IndexToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/IndexToe1_L/IndexToe2_L/IndexToe2End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/MiddleToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/MiddleToe1_L/MiddleToe2_L/MiddleToe2End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/PinkyToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/PinkyToe1_L/PinkyToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/PinkyToe1_L/PinkyToe2_L/PinkyToe2End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_L/Hip_L/Knee_L/Ankle_L/Toes_L/ToesEnd_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/ThumbToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/ThumbToe1_R/ThumbToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/ThumbToe1_R/ThumbToe2_R/ThumbToe3_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/ThumbToe1_R/ThumbToe2_R/ThumbToe3_R/ThumbToe3End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/IndexToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/IndexToe1_R/IndexToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/IndexToe1_R/IndexToe2_R/IndexToe2End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/MiddleToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/MiddleToe1_R/MiddleToe2_R/MiddleToe2End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/PinkyToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/PinkyToe1_R/PinkyToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/PinkyToe1_R/PinkyToe2_R/PinkyToe2End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/legMove_R/Hip_R/Knee_R/Ankle_R/Toes_R/ToesEnd_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/beak_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/beak_M/beak1_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/beak_M/beak1_M/beak1End_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eye_base_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eye_base_M/Eye_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eye_base_M/Eye_L/EyeEnd_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eye_base_M/Eye_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eye_base_M/Eye_R/EyeEnd_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eyebrow_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eyebrow_L/Eyebrow1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eyebrow_L/Eyebrow1_L/Eyebrow1End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eyebrow_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eyebrow_R/Eyebrow1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Eyebrow_R/Eyebrow1_R/Eyebrow1End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/HeadEnd_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/LowerEyelid_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/LowerEyelid_L/LowerEyelid_L_End
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/LowerEyelid_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/LowerEyelid_R/LowerEyelid_R_End
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Tongue
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/UpperBeak_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/UpperBeak_M/UpperBeak1_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/UpperBeak_M/UpperBeak1_M/UpperBeak1End_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/UpperEyelid_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/UpperEyelid_L/UpperEyelid_L_End
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/UpperEyelid_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Neck_M/NeckPart1_M/Head_M/UpperEyelid_R/UpperEyelid_R_End
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L/IndexFinger3End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger3End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/PinkyFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger3End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger3End_L
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R/IndexFinger3End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R/MiddleFinger3End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/PinkyFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/PinkyFinger1_R/PinkyFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R/PinkyFinger3End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R/ThumbFinger3End_R
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Tail_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Tail_M/Tail1_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Tail_M/Tail1_M/Tail2_M
+        weight: 1
+      - path: Raven_Rig/Main/DeformationSystem/Root_M/Tail_M/Tail1_M/Tail2_M/Tail2End_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKIKSystem
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKIKSystem/FKIKParentConstraintArm_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKIKSystem/FKIKParentConstraintArm_L/FKIKArm_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKIKSystem/FKIKParentConstraintArm_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKIKSystem/FKIKParentConstraintArm_R/FKIKArm_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKIKSystem/FKIKParentConstraintSpine_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKIKSystem/FKIKParentConstraintSpine_M/FKIKSpine_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXOffsetRoot_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXOffsetRoot_M/HipSwingerGroupOffsetRoot_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXOffsetRoot_M/HipSwingerGroupOffsetRoot_M/HipSwingerGroupRoot_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXOffsetRoot_M/HipSwingerGroupOffsetRoot_M/HipSwingerGroupRoot_M/FKXRoot_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXOffsetRoot_M/HipSwingerGroupOffsetRoot_M/HipSwingerGroupRoot_M/FKXRoot_M/HipSwingerStabalizeRoot_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXOffsetRoot_M/HipSwingerGroupOffsetRoot_M/HipSwingerGroupRoot_M/FKXRoot_M/HipSwingerStabalizeRoot_M/FKOffsetSpine1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXOffsetRoot_M/HipSwingerGroupOffsetRoot_M/HipSwingerGroupRoot_M/FKXRoot_M/HipSwingerStabalizeRoot_M/FKOffsetSpine1_M/FKExtraSpine1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXOffsetRoot_M/HipSwingerGroupOffsetRoot_M/HipSwingerGroupRoot_M/FKXRoot_M/HipSwingerStabalizeRoot_M/FKOffsetSpine1_M/FKExtraSpine1_M/FKSpine1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXOffsetRoot_M/HipSwingerGroupOffsetRoot_M/HipSwingerGroupRoot_M/FKXRoot_M/HipSwingerStabalizeRoot_M/FKOffsetSpine1_M/FKExtraSpine1_M/FKSpine1_M/FKXOffsetSpine1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXOffsetRoot_M/HipSwingerGroupOffsetRoot_M/HipSwingerGroupRoot_M/FKXRoot_M/HipSwingerStabalizeRoot_M/FKOffsetSpine1_M/FKExtraSpine1_M/FKSpine1_M/FKXOffsetSpine1_M/FKXSpine1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXOffsetRoot_M/HipSwingerGroupOffsetRoot_M/HipSwingerGroupRoot_M/FKXRoot_M/HipSwingerStabalizeRoot_M/FKOffsetSpine1_M/FKExtraSpine1_M/FKSpine1_M/FKXOffsetSpine1_M/FKXSpine1_M/FKOffsetChest_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXOffsetRoot_M/HipSwingerGroupOffsetRoot_M/HipSwingerGroupRoot_M/FKXRoot_M/HipSwingerStabalizeRoot_M/FKOffsetSpine1_M/FKExtraSpine1_M/FKSpine1_M/FKXOffsetSpine1_M/FKXSpine1_M/FKOffsetChest_M/FKExtraChest_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXOffsetRoot_M/HipSwingerGroupOffsetRoot_M/HipSwingerGroupRoot_M/FKXRoot_M/HipSwingerStabalizeRoot_M/FKOffsetSpine1_M/FKExtraSpine1_M/FKSpine1_M/FKXOffsetSpine1_M/FKXSpine1_M/FKOffsetChest_M/FKExtraChest_M/FKChest_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_L/FKOffsetThumbToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_L/FKOffsetThumbToe1_L/FKExtraThumbToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_L/FKOffsetThumbToe1_L/FKExtraThumbToe1_L/FKThumbToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_L/FKOffsetThumbToe1_L/FKExtraThumbToe1_L/FKThumbToe1_L/FKXOffsetThumbToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_L/FKOffsetThumbToe1_L/FKExtraThumbToe1_L/FKThumbToe1_L/FKXOffsetThumbToe1_L/FKXThumbToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_L/FKOffsetThumbToe1_L/FKExtraThumbToe1_L/FKThumbToe1_L/FKXOffsetThumbToe1_L/FKXThumbToe1_L/FKOffsetThumbToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_L/FKOffsetThumbToe1_L/FKExtraThumbToe1_L/FKThumbToe1_L/FKXOffsetThumbToe1_L/FKXThumbToe1_L/FKOffsetThumbToe2_L/SDK1FKThumbToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_L/FKOffsetThumbToe1_L/FKExtraThumbToe1_L/FKThumbToe1_L/FKXOffsetThumbToe1_L/FKXThumbToe1_L/FKOffsetThumbToe2_L/SDK1FKThumbToe2_L/FKExtraThumbToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_L/FKOffsetThumbToe1_L/FKExtraThumbToe1_L/FKThumbToe1_L/FKXOffsetThumbToe1_L/FKXThumbToe1_L/FKOffsetThumbToe2_L/SDK1FKThumbToe2_L/FKExtraThumbToe2_L/FKThumbToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_R/FKOffsetThumbToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_R/FKOffsetThumbToe1_R/FKExtraThumbToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_R/FKOffsetThumbToe1_R/FKExtraThumbToe1_R/FKThumbToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_R/FKOffsetThumbToe1_R/FKExtraThumbToe1_R/FKThumbToe1_R/FKXOffsetThumbToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_R/FKOffsetThumbToe1_R/FKExtraThumbToe1_R/FKThumbToe1_R/FKXOffsetThumbToe1_R/FKXThumbToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_R/FKOffsetThumbToe1_R/FKExtraThumbToe1_R/FKThumbToe1_R/FKXOffsetThumbToe1_R/FKXThumbToe1_R/FKOffsetThumbToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_R/FKOffsetThumbToe1_R/FKExtraThumbToe1_R/FKThumbToe1_R/FKXOffsetThumbToe1_R/FKXThumbToe1_R/FKOffsetThumbToe2_R/SDK1FKThumbToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_R/FKOffsetThumbToe1_R/FKExtraThumbToe1_R/FKThumbToe1_R/FKXOffsetThumbToe1_R/FKXThumbToe1_R/FKOffsetThumbToe2_R/SDK1FKThumbToe2_R/FKExtraThumbToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToAnkle_R/FKOffsetThumbToe1_R/FKExtraThumbToe1_R/FKThumbToe1_R/FKXOffsetThumbToe1_R/FKXThumbToe1_R/FKOffsetThumbToe2_R/SDK1FKThumbToe2_R/FKExtraThumbToe2_R/FKThumbToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetNeck_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetNeck_M/FKGlobalStaticNeck_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetNeck_M/FKGlobalStaticNeck_M/FKGlobalNeck_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetNeck_M/FKGlobalStaticNeck_M/FKGlobalNeck_M/FKExtraNeck_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetNeck_M/FKGlobalStaticNeck_M/FKGlobalNeck_M/FKExtraNeck_M/FKNeck_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetNeck_M/FKGlobalStaticNeck_M/FKGlobalNeck_M/FKExtraNeck_M/FKNeck_M/FKXOffsetNeck_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetNeck_M/FKGlobalStaticNeck_M/FKGlobalNeck_M/FKExtraNeck_M/FKNeck_M/FKXOffsetNeck_M/FKXNeck_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetNeck_M/FKGlobalStaticNeck_M/FKGlobalNeck_M/FKExtraNeck_M/FKNeck_M/FKXOffsetNeck_M/FKXNeck_M/FKOffsetHead_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetNeck_M/FKGlobalStaticNeck_M/FKGlobalNeck_M/FKExtraNeck_M/FKNeck_M/FKXOffsetNeck_M/FKXNeck_M/FKOffsetHead_M/FKExtraHead_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetNeck_M/FKGlobalStaticNeck_M/FKGlobalNeck_M/FKExtraNeck_M/FKNeck_M/FKXOffsetNeck_M/FKXNeck_M/FKOffsetHead_M/FKExtraHead_M/FKHead_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L/FKGlobalStaticShoulder_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L/FKGlobalStaticShoulder_L/FKGlobalShoulder_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L/FKGlobalStaticShoulder_L/FKGlobalShoulder_L/FKExtraShoulder_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L/FKGlobalStaticShoulder_L/FKGlobalShoulder_L/FKExtraShoulder_L/FKShoulder_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L/FKGlobalStaticShoulder_L/FKGlobalShoulder_L/FKExtraShoulder_L/FKShoulder_L/FKXOffsetShoulder_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L/FKGlobalStaticShoulder_L/FKGlobalShoulder_L/FKExtraShoulder_L/FKShoulder_L/FKXOffsetShoulder_L/FKXShoulder_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L/FKGlobalStaticShoulder_L/FKGlobalShoulder_L/FKExtraShoulder_L/FKShoulder_L/FKXOffsetShoulder_L/FKXShoulder_L/FKOffsetElbow_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L/FKGlobalStaticShoulder_L/FKGlobalShoulder_L/FKExtraShoulder_L/FKShoulder_L/FKXOffsetShoulder_L/FKXShoulder_L/FKOffsetElbow_L/FKExtraElbow_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L/FKGlobalStaticShoulder_L/FKGlobalShoulder_L/FKExtraShoulder_L/FKShoulder_L/FKXOffsetShoulder_L/FKXShoulder_L/FKOffsetElbow_L/FKExtraElbow_L/FKElbow_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L/FKGlobalStaticShoulder_L/FKGlobalShoulder_L/FKExtraShoulder_L/FKShoulder_L/FKXOffsetShoulder_L/FKXShoulder_L/FKOffsetElbow_L/FKExtraElbow_L/FKElbow_L/FKXOffsetElbow_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L/FKGlobalStaticShoulder_L/FKGlobalShoulder_L/FKExtraShoulder_L/FKShoulder_L/FKXOffsetShoulder_L/FKXShoulder_L/FKOffsetElbow_L/FKExtraElbow_L/FKElbow_L/FKXOffsetElbow_L/FKXElbow_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L/FKGlobalStaticShoulder_L/FKGlobalShoulder_L/FKExtraShoulder_L/FKShoulder_L/FKXOffsetShoulder_L/FKXShoulder_L/FKOffsetElbow_L/FKExtraElbow_L/FKElbow_L/FKXOffsetElbow_L/FKXElbow_L/FKOffsetWrist_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L/FKGlobalStaticShoulder_L/FKGlobalShoulder_L/FKExtraShoulder_L/FKShoulder_L/FKXOffsetShoulder_L/FKXShoulder_L/FKOffsetElbow_L/FKExtraElbow_L/FKElbow_L/FKXOffsetElbow_L/FKXElbow_L/FKOffsetWrist_L/FKExtraWrist_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_L/FKExtraScapula_L/FKScapula_L/FKXOffsetScapula_L/FKXScapula_L/FKOffsetShoulder_L/FKGlobalStaticShoulder_L/FKGlobalShoulder_L/FKExtraShoulder_L/FKShoulder_L/FKXOffsetShoulder_L/FKXShoulder_L/FKOffsetElbow_L/FKExtraElbow_L/FKElbow_L/FKXOffsetElbow_L/FKXElbow_L/FKOffsetWrist_L/FKExtraWrist_L/FKWrist_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R/FKGlobalStaticShoulder_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R/FKGlobalStaticShoulder_R/FKGlobalShoulder_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R/FKGlobalStaticShoulder_R/FKGlobalShoulder_R/FKExtraShoulder_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R/FKGlobalStaticShoulder_R/FKGlobalShoulder_R/FKExtraShoulder_R/FKShoulder_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R/FKGlobalStaticShoulder_R/FKGlobalShoulder_R/FKExtraShoulder_R/FKShoulder_R/FKXOffsetShoulder_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R/FKGlobalStaticShoulder_R/FKGlobalShoulder_R/FKExtraShoulder_R/FKShoulder_R/FKXOffsetShoulder_R/FKXShoulder_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R/FKGlobalStaticShoulder_R/FKGlobalShoulder_R/FKExtraShoulder_R/FKShoulder_R/FKXOffsetShoulder_R/FKXShoulder_R/FKOffsetElbow_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R/FKGlobalStaticShoulder_R/FKGlobalShoulder_R/FKExtraShoulder_R/FKShoulder_R/FKXOffsetShoulder_R/FKXShoulder_R/FKOffsetElbow_R/FKExtraElbow_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R/FKGlobalStaticShoulder_R/FKGlobalShoulder_R/FKExtraShoulder_R/FKShoulder_R/FKXOffsetShoulder_R/FKXShoulder_R/FKOffsetElbow_R/FKExtraElbow_R/FKElbow_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R/FKGlobalStaticShoulder_R/FKGlobalShoulder_R/FKExtraShoulder_R/FKShoulder_R/FKXOffsetShoulder_R/FKXShoulder_R/FKOffsetElbow_R/FKExtraElbow_R/FKElbow_R/FKXOffsetElbow_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R/FKGlobalStaticShoulder_R/FKGlobalShoulder_R/FKExtraShoulder_R/FKShoulder_R/FKXOffsetShoulder_R/FKXShoulder_R/FKOffsetElbow_R/FKExtraElbow_R/FKElbow_R/FKXOffsetElbow_R/FKXElbow_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R/FKGlobalStaticShoulder_R/FKGlobalShoulder_R/FKExtraShoulder_R/FKShoulder_R/FKXOffsetShoulder_R/FKXShoulder_R/FKOffsetElbow_R/FKExtraElbow_R/FKElbow_R/FKXOffsetElbow_R/FKXElbow_R/FKOffsetWrist_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R/FKGlobalStaticShoulder_R/FKGlobalShoulder_R/FKExtraShoulder_R/FKShoulder_R/FKXOffsetShoulder_R/FKXShoulder_R/FKOffsetElbow_R/FKExtraElbow_R/FKElbow_R/FKXOffsetElbow_R/FKXElbow_R/FKOffsetWrist_R/FKExtraWrist_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToChest_M/FKOffsetScapula_R/FKExtraScapula_R/FKScapula_R/FKXOffsetScapula_R/FKXScapula_R/FKOffsetShoulder_R/FKGlobalStaticShoulder_R/FKGlobalShoulder_R/FKExtraShoulder_R/FKShoulder_R/FKXOffsetShoulder_R/FKXShoulder_R/FKOffsetElbow_R/FKExtraElbow_R/FKElbow_R/FKXOffsetElbow_R/FKXElbow_R/FKOffsetWrist_R/FKExtraWrist_R/FKWrist_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetbeak_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetbeak_M/FKExtrabeak_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetbeak_M/FKExtrabeak_M/FKbeak_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetbeak_M/FKExtrabeak_M/FKbeak_M/FKXOffsetbeak_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetbeak_M/FKExtrabeak_M/FKbeak_M/FKXOffsetbeak_M/FKXbeak_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetbeak_M/FKExtrabeak_M/FKbeak_M/FKXOffsetbeak_M/FKXbeak_M/FKOffsetbeak1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetbeak_M/FKExtrabeak_M/FKbeak_M/FKXOffsetbeak_M/FKXbeak_M/FKOffsetbeak1_M/FKExtrabeak1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetbeak_M/FKExtrabeak_M/FKbeak_M/FKXOffsetbeak_M/FKXbeak_M/FKOffsetbeak1_M/FKExtrabeak1_M/FKbeak1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEye_base_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEye_base_M/FKExtraEye_base_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEye_base_M/FKExtraEye_base_M/FKEye_base_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEye_base_M/FKExtraEye_base_M/FKEye_base_M/FKXOffsetEye_base_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEye_base_M/FKExtraEye_base_M/FKEye_base_M/FKXOffsetEye_base_M/FKXEye_base_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEye_base_M/FKExtraEye_base_M/FKEye_base_M/FKXOffsetEye_base_M/FKXEye_base_M/FKOffsetEye_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEye_base_M/FKExtraEye_base_M/FKEye_base_M/FKXOffsetEye_base_M/FKXEye_base_M/FKOffsetEye_L/FKExtraEye_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEye_base_M/FKExtraEye_base_M/FKEye_base_M/FKXOffsetEye_base_M/FKXEye_base_M/FKOffsetEye_L/FKExtraEye_L/FKEye_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEye_base_M/FKExtraEye_base_M/FKEye_base_M/FKXOffsetEye_base_M/FKXEye_base_M/FKOffsetEye_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEye_base_M/FKExtraEye_base_M/FKEye_base_M/FKXOffsetEye_base_M/FKXEye_base_M/FKOffsetEye_R/FKExtraEye_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEye_base_M/FKExtraEye_base_M/FKEye_base_M/FKXOffsetEye_base_M/FKXEye_base_M/FKOffsetEye_R/FKExtraEye_R/FKEye_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_L/FKExtraEyebrow_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_L/FKExtraEyebrow_L/FKEyebrow_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_L/FKExtraEyebrow_L/FKEyebrow_L/FKXOffsetEyebrow_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_L/FKExtraEyebrow_L/FKEyebrow_L/FKXOffsetEyebrow_L/FKXEyebrow_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_L/FKExtraEyebrow_L/FKEyebrow_L/FKXOffsetEyebrow_L/FKXEyebrow_L/FKOffsetEyebrow1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_L/FKExtraEyebrow_L/FKEyebrow_L/FKXOffsetEyebrow_L/FKXEyebrow_L/FKOffsetEyebrow1_L/FKExtraEyebrow1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_L/FKExtraEyebrow_L/FKEyebrow_L/FKXOffsetEyebrow_L/FKXEyebrow_L/FKOffsetEyebrow1_L/FKExtraEyebrow1_L/FKEyebrow1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_R/FKExtraEyebrow_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_R/FKExtraEyebrow_R/FKEyebrow_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_R/FKExtraEyebrow_R/FKEyebrow_R/FKXOffsetEyebrow_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_R/FKExtraEyebrow_R/FKEyebrow_R/FKXOffsetEyebrow_R/FKXEyebrow_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_R/FKExtraEyebrow_R/FKEyebrow_R/FKXOffsetEyebrow_R/FKXEyebrow_R/FKOffsetEyebrow1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_R/FKExtraEyebrow_R/FKEyebrow_R/FKXOffsetEyebrow_R/FKXEyebrow_R/FKOffsetEyebrow1_R/FKExtraEyebrow1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetEyebrow_R/FKExtraEyebrow_R/FKEyebrow_R/FKXOffsetEyebrow_R/FKXEyebrow_R/FKOffsetEyebrow1_R/FKExtraEyebrow1_R/FKEyebrow1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetUpperBeak_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetUpperBeak_M/FKExtraUpperBeak_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetUpperBeak_M/FKExtraUpperBeak_M/FKUpperBeak_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetUpperBeak_M/FKExtraUpperBeak_M/FKUpperBeak_M/FKXOffsetUpperBeak_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetUpperBeak_M/FKExtraUpperBeak_M/FKUpperBeak_M/FKXOffsetUpperBeak_M/FKXUpperBeak_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetUpperBeak_M/FKExtraUpperBeak_M/FKUpperBeak_M/FKXOffsetUpperBeak_M/FKXUpperBeak_M/FKOffsetUpperBeak1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetUpperBeak_M/FKExtraUpperBeak_M/FKUpperBeak_M/FKXOffsetUpperBeak_M/FKXUpperBeak_M/FKOffsetUpperBeak1_M/FKExtraUpperBeak1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToHead_M/FKOffsetUpperBeak_M/FKExtraUpperBeak_M/FKUpperBeak_M/FKXOffsetUpperBeak_M/FKXUpperBeak_M/FKOffsetUpperBeak1_M/FKExtraUpperBeak1_M/FKUpperBeak1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_L/FKExtraHip_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_L/FKExtraHip_L/FKHip_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_L/FKExtraHip_L/FKHip_L/FKXOffsetHip_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_L/FKExtraHip_L/FKHip_L/FKXOffsetHip_L/FKXHip_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_L/FKExtraHip_L/FKHip_L/FKXOffsetHip_L/FKXHip_L/FKOffsetKnee_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_L/FKExtraHip_L/FKHip_L/FKXOffsetHip_L/FKXHip_L/FKOffsetKnee_L/FKExtraKnee_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_L/FKExtraHip_L/FKHip_L/FKXOffsetHip_L/FKXHip_L/FKOffsetKnee_L/FKExtraKnee_L/FKKnee_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_L/FKExtraHip_L/FKHip_L/FKXOffsetHip_L/FKXHip_L/FKOffsetKnee_L/FKExtraKnee_L/FKKnee_L/FKXOffsetKnee_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_L/FKExtraHip_L/FKHip_L/FKXOffsetHip_L/FKXHip_L/FKOffsetKnee_L/FKExtraKnee_L/FKKnee_L/FKXOffsetKnee_L/FKXKnee_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_L/FKExtraHip_L/FKHip_L/FKXOffsetHip_L/FKXHip_L/FKOffsetKnee_L/FKExtraKnee_L/FKKnee_L/FKXOffsetKnee_L/FKXKnee_L/FKOffsetAnkle_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_L/FKExtraHip_L/FKHip_L/FKXOffsetHip_L/FKXHip_L/FKOffsetKnee_L/FKExtraKnee_L/FKKnee_L/FKXOffsetKnee_L/FKXKnee_L/FKOffsetAnkle_L/FKExtraAnkle_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_L/FKExtraHip_L/FKHip_L/FKXOffsetHip_L/FKXHip_L/FKOffsetKnee_L/FKExtraKnee_L/FKKnee_L/FKXOffsetKnee_L/FKXKnee_L/FKOffsetAnkle_L/FKExtraAnkle_L/FKAnkle_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_R/FKExtraHip_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_R/FKExtraHip_R/FKHip_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_R/FKExtraHip_R/FKHip_R/FKXOffsetHip_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_R/FKExtraHip_R/FKHip_R/FKXOffsetHip_R/FKXHip_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_R/FKExtraHip_R/FKHip_R/FKXOffsetHip_R/FKXHip_R/FKOffsetKnee_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_R/FKExtraHip_R/FKHip_R/FKXOffsetHip_R/FKXHip_R/FKOffsetKnee_R/FKExtraKnee_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_R/FKExtraHip_R/FKHip_R/FKXOffsetHip_R/FKXHip_R/FKOffsetKnee_R/FKExtraKnee_R/FKKnee_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_R/FKExtraHip_R/FKHip_R/FKXOffsetHip_R/FKXHip_R/FKOffsetKnee_R/FKExtraKnee_R/FKKnee_R/FKXOffsetKnee_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_R/FKExtraHip_R/FKHip_R/FKXOffsetHip_R/FKXHip_R/FKOffsetKnee_R/FKExtraKnee_R/FKKnee_R/FKXOffsetKnee_R/FKXKnee_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_R/FKExtraHip_R/FKHip_R/FKXOffsetHip_R/FKXHip_R/FKOffsetKnee_R/FKExtraKnee_R/FKKnee_R/FKXOffsetKnee_R/FKXKnee_R/FKOffsetAnkle_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_R/FKExtraHip_R/FKHip_R/FKXOffsetHip_R/FKXHip_R/FKOffsetKnee_R/FKExtraKnee_R/FKKnee_R/FKXOffsetKnee_R/FKXKnee_R/FKOffsetAnkle_R/FKExtraAnkle_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetHip_R/FKExtraHip_R/FKHip_R/FKXOffsetHip_R/FKXHip_R/FKOffsetKnee_R/FKExtraKnee_R/FKKnee_R/FKXOffsetKnee_R/FKXKnee_R/FKOffsetAnkle_R/FKExtraAnkle_R/FKAnkle_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetTail_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetTail_M/FKExtraTail_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetTail_M/FKExtraTail_M/FKTail_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetTail_M/FKExtraTail_M/FKTail_M/FKXOffsetTail_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetTail_M/FKExtraTail_M/FKTail_M/FKXOffsetTail_M/FKXTail_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetTail_M/FKExtraTail_M/FKTail_M/FKXOffsetTail_M/FKXTail_M/FKOffsetTail1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetTail_M/FKExtraTail_M/FKTail_M/FKXOffsetTail_M/FKXTail_M/FKOffsetTail1_M/FKExtraTail1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetTail_M/FKExtraTail_M/FKTail_M/FKXOffsetTail_M/FKXTail_M/FKOffsetTail1_M/FKExtraTail1_M/FKTail1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetTail_M/FKExtraTail_M/FKTail_M/FKXOffsetTail_M/FKXTail_M/FKOffsetTail1_M/FKExtraTail1_M/FKTail1_M/FKXOffsetTail1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetTail_M/FKExtraTail_M/FKTail_M/FKXOffsetTail_M/FKXTail_M/FKOffsetTail1_M/FKExtraTail1_M/FKTail1_M/FKXOffsetTail1_M/FKXTail1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetTail_M/FKExtraTail_M/FKTail_M/FKXOffsetTail_M/FKXTail_M/FKOffsetTail1_M/FKExtraTail1_M/FKTail1_M/FKXOffsetTail1_M/FKXTail1_M/FKOffsetTail2_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetTail_M/FKExtraTail_M/FKTail_M/FKXOffsetTail_M/FKXTail_M/FKOffsetTail1_M/FKExtraTail1_M/FKTail1_M/FKXOffsetTail1_M/FKXTail1_M/FKOffsetTail2_M/FKExtraTail2_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToRoot_M/FKOffsetTail_M/FKExtraTail_M/FKTail_M/FKXOffsetTail_M/FKXTail_M/FKOffsetTail1_M/FKExtraTail1_M/FKTail1_M/FKXOffsetTail1_M/FKXTail1_M/FKOffsetTail2_M/FKExtraTail2_M/FKTail2_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetIndexToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetIndexToe1_L/SDK1FKIndexToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetIndexToe1_L/SDK1FKIndexToe1_L/SDK2FKIndexToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetIndexToe1_L/SDK1FKIndexToe1_L/SDK2FKIndexToe1_L/FKExtraIndexToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetIndexToe1_L/SDK1FKIndexToe1_L/SDK2FKIndexToe1_L/FKExtraIndexToe1_L/FKIndexToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetIndexToe1_L/SDK1FKIndexToe1_L/SDK2FKIndexToe1_L/FKExtraIndexToe1_L/FKIndexToe1_L/FKXOffsetIndexToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetIndexToe1_L/SDK1FKIndexToe1_L/SDK2FKIndexToe1_L/FKExtraIndexToe1_L/FKIndexToe1_L/FKXOffsetIndexToe1_L/FKXIndexToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetIndexToe1_L/SDK1FKIndexToe1_L/SDK2FKIndexToe1_L/FKExtraIndexToe1_L/FKIndexToe1_L/FKXOffsetIndexToe1_L/FKXIndexToe1_L/FKOffsetIndexToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetIndexToe1_L/SDK1FKIndexToe1_L/SDK2FKIndexToe1_L/FKExtraIndexToe1_L/FKIndexToe1_L/FKXOffsetIndexToe1_L/FKXIndexToe1_L/FKOffsetIndexToe2_L/SDK1FKIndexToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetIndexToe1_L/SDK1FKIndexToe1_L/SDK2FKIndexToe1_L/FKExtraIndexToe1_L/FKIndexToe1_L/FKXOffsetIndexToe1_L/FKXIndexToe1_L/FKOffsetIndexToe2_L/SDK1FKIndexToe2_L/FKExtraIndexToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetIndexToe1_L/SDK1FKIndexToe1_L/SDK2FKIndexToe1_L/FKExtraIndexToe1_L/FKIndexToe1_L/FKXOffsetIndexToe1_L/FKXIndexToe1_L/FKOffsetIndexToe2_L/SDK1FKIndexToe2_L/FKExtraIndexToe2_L/FKIndexToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetMiddleToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetMiddleToe1_L/SDK1FKMiddleToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetMiddleToe1_L/SDK1FKMiddleToe1_L/FKExtraMiddleToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetMiddleToe1_L/SDK1FKMiddleToe1_L/FKExtraMiddleToe1_L/FKMiddleToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetMiddleToe1_L/SDK1FKMiddleToe1_L/FKExtraMiddleToe1_L/FKMiddleToe1_L/FKXOffsetMiddleToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetMiddleToe1_L/SDK1FKMiddleToe1_L/FKExtraMiddleToe1_L/FKMiddleToe1_L/FKXOffsetMiddleToe1_L/FKXMiddleToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetMiddleToe1_L/SDK1FKMiddleToe1_L/FKExtraMiddleToe1_L/FKMiddleToe1_L/FKXOffsetMiddleToe1_L/FKXMiddleToe1_L/FKOffsetMiddleToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetMiddleToe1_L/SDK1FKMiddleToe1_L/FKExtraMiddleToe1_L/FKMiddleToe1_L/FKXOffsetMiddleToe1_L/FKXMiddleToe1_L/FKOffsetMiddleToe2_L/SDK1FKMiddleToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetMiddleToe1_L/SDK1FKMiddleToe1_L/FKExtraMiddleToe1_L/FKMiddleToe1_L/FKXOffsetMiddleToe1_L/FKXMiddleToe1_L/FKOffsetMiddleToe2_L/SDK1FKMiddleToe2_L/FKExtraMiddleToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetMiddleToe1_L/SDK1FKMiddleToe1_L/FKExtraMiddleToe1_L/FKMiddleToe1_L/FKXOffsetMiddleToe1_L/FKXMiddleToe1_L/FKOffsetMiddleToe2_L/SDK1FKMiddleToe2_L/FKExtraMiddleToe2_L/FKMiddleToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetPinkyToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetPinkyToe1_L/SDK1FKPinkyToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetPinkyToe1_L/SDK1FKPinkyToe1_L/SDK2FKPinkyToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetPinkyToe1_L/SDK1FKPinkyToe1_L/SDK2FKPinkyToe1_L/FKExtraPinkyToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetPinkyToe1_L/SDK1FKPinkyToe1_L/SDK2FKPinkyToe1_L/FKExtraPinkyToe1_L/FKPinkyToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetPinkyToe1_L/SDK1FKPinkyToe1_L/SDK2FKPinkyToe1_L/FKExtraPinkyToe1_L/FKPinkyToe1_L/FKXOffsetPinkyToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetPinkyToe1_L/SDK1FKPinkyToe1_L/SDK2FKPinkyToe1_L/FKExtraPinkyToe1_L/FKPinkyToe1_L/FKXOffsetPinkyToe1_L/FKXPinkyToe1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetPinkyToe1_L/SDK1FKPinkyToe1_L/SDK2FKPinkyToe1_L/FKExtraPinkyToe1_L/FKPinkyToe1_L/FKXOffsetPinkyToe1_L/FKXPinkyToe1_L/FKOffsetPinkyToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetPinkyToe1_L/SDK1FKPinkyToe1_L/SDK2FKPinkyToe1_L/FKExtraPinkyToe1_L/FKPinkyToe1_L/FKXOffsetPinkyToe1_L/FKXPinkyToe1_L/FKOffsetPinkyToe2_L/SDK1FKPinkyToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetPinkyToe1_L/SDK1FKPinkyToe1_L/SDK2FKPinkyToe1_L/FKExtraPinkyToe1_L/FKPinkyToe1_L/FKXOffsetPinkyToe1_L/FKXPinkyToe1_L/FKOffsetPinkyToe2_L/SDK1FKPinkyToe2_L/FKExtraPinkyToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_L/FKOffsetPinkyToe1_L/SDK1FKPinkyToe1_L/SDK2FKPinkyToe1_L/FKExtraPinkyToe1_L/FKPinkyToe1_L/FKXOffsetPinkyToe1_L/FKXPinkyToe1_L/FKOffsetPinkyToe2_L/SDK1FKPinkyToe2_L/FKExtraPinkyToe2_L/FKPinkyToe2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetIndexToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetIndexToe1_R/SDK1FKIndexToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetIndexToe1_R/SDK1FKIndexToe1_R/SDK2FKIndexToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetIndexToe1_R/SDK1FKIndexToe1_R/SDK2FKIndexToe1_R/FKExtraIndexToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetIndexToe1_R/SDK1FKIndexToe1_R/SDK2FKIndexToe1_R/FKExtraIndexToe1_R/FKIndexToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetIndexToe1_R/SDK1FKIndexToe1_R/SDK2FKIndexToe1_R/FKExtraIndexToe1_R/FKIndexToe1_R/FKXOffsetIndexToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetIndexToe1_R/SDK1FKIndexToe1_R/SDK2FKIndexToe1_R/FKExtraIndexToe1_R/FKIndexToe1_R/FKXOffsetIndexToe1_R/FKXIndexToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetIndexToe1_R/SDK1FKIndexToe1_R/SDK2FKIndexToe1_R/FKExtraIndexToe1_R/FKIndexToe1_R/FKXOffsetIndexToe1_R/FKXIndexToe1_R/FKOffsetIndexToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetIndexToe1_R/SDK1FKIndexToe1_R/SDK2FKIndexToe1_R/FKExtraIndexToe1_R/FKIndexToe1_R/FKXOffsetIndexToe1_R/FKXIndexToe1_R/FKOffsetIndexToe2_R/SDK1FKIndexToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetIndexToe1_R/SDK1FKIndexToe1_R/SDK2FKIndexToe1_R/FKExtraIndexToe1_R/FKIndexToe1_R/FKXOffsetIndexToe1_R/FKXIndexToe1_R/FKOffsetIndexToe2_R/SDK1FKIndexToe2_R/FKExtraIndexToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetIndexToe1_R/SDK1FKIndexToe1_R/SDK2FKIndexToe1_R/FKExtraIndexToe1_R/FKIndexToe1_R/FKXOffsetIndexToe1_R/FKXIndexToe1_R/FKOffsetIndexToe2_R/SDK1FKIndexToe2_R/FKExtraIndexToe2_R/FKIndexToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetMiddleToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetMiddleToe1_R/SDK1FKMiddleToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetMiddleToe1_R/SDK1FKMiddleToe1_R/FKExtraMiddleToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetMiddleToe1_R/SDK1FKMiddleToe1_R/FKExtraMiddleToe1_R/FKMiddleToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetMiddleToe1_R/SDK1FKMiddleToe1_R/FKExtraMiddleToe1_R/FKMiddleToe1_R/FKXOffsetMiddleToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetMiddleToe1_R/SDK1FKMiddleToe1_R/FKExtraMiddleToe1_R/FKMiddleToe1_R/FKXOffsetMiddleToe1_R/FKXMiddleToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetMiddleToe1_R/SDK1FKMiddleToe1_R/FKExtraMiddleToe1_R/FKMiddleToe1_R/FKXOffsetMiddleToe1_R/FKXMiddleToe1_R/FKOffsetMiddleToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetMiddleToe1_R/SDK1FKMiddleToe1_R/FKExtraMiddleToe1_R/FKMiddleToe1_R/FKXOffsetMiddleToe1_R/FKXMiddleToe1_R/FKOffsetMiddleToe2_R/SDK1FKMiddleToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetMiddleToe1_R/SDK1FKMiddleToe1_R/FKExtraMiddleToe1_R/FKMiddleToe1_R/FKXOffsetMiddleToe1_R/FKXMiddleToe1_R/FKOffsetMiddleToe2_R/SDK1FKMiddleToe2_R/FKExtraMiddleToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetMiddleToe1_R/SDK1FKMiddleToe1_R/FKExtraMiddleToe1_R/FKMiddleToe1_R/FKXOffsetMiddleToe1_R/FKXMiddleToe1_R/FKOffsetMiddleToe2_R/SDK1FKMiddleToe2_R/FKExtraMiddleToe2_R/FKMiddleToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetPinkyToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetPinkyToe1_R/SDK1FKPinkyToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetPinkyToe1_R/SDK1FKPinkyToe1_R/SDK2FKPinkyToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetPinkyToe1_R/SDK1FKPinkyToe1_R/SDK2FKPinkyToe1_R/FKExtraPinkyToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetPinkyToe1_R/SDK1FKPinkyToe1_R/SDK2FKPinkyToe1_R/FKExtraPinkyToe1_R/FKPinkyToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetPinkyToe1_R/SDK1FKPinkyToe1_R/SDK2FKPinkyToe1_R/FKExtraPinkyToe1_R/FKPinkyToe1_R/FKXOffsetPinkyToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetPinkyToe1_R/SDK1FKPinkyToe1_R/SDK2FKPinkyToe1_R/FKExtraPinkyToe1_R/FKPinkyToe1_R/FKXOffsetPinkyToe1_R/FKXPinkyToe1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetPinkyToe1_R/SDK1FKPinkyToe1_R/SDK2FKPinkyToe1_R/FKExtraPinkyToe1_R/FKPinkyToe1_R/FKXOffsetPinkyToe1_R/FKXPinkyToe1_R/FKOffsetPinkyToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetPinkyToe1_R/SDK1FKPinkyToe1_R/SDK2FKPinkyToe1_R/FKExtraPinkyToe1_R/FKPinkyToe1_R/FKXOffsetPinkyToe1_R/FKXPinkyToe1_R/FKOffsetPinkyToe2_R/SDK1FKPinkyToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetPinkyToe1_R/SDK1FKPinkyToe1_R/SDK2FKPinkyToe1_R/FKExtraPinkyToe1_R/FKPinkyToe1_R/FKXOffsetPinkyToe1_R/FKXPinkyToe1_R/FKOffsetPinkyToe2_R/SDK1FKPinkyToe2_R/FKExtraPinkyToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToToes_R/FKOffsetPinkyToe1_R/SDK1FKPinkyToe1_R/SDK2FKPinkyToe1_R/FKExtraPinkyToe1_R/FKPinkyToe1_R/FKXOffsetPinkyToe1_R/FKXPinkyToe1_R/FKOffsetPinkyToe2_R/SDK1FKPinkyToe2_R/FKExtraPinkyToe2_R/FKPinkyToe2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L/FKExtraIndexFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L/FKExtraIndexFinger1_L/FKIndexFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L/FKExtraIndexFinger1_L/FKIndexFinger1_L/FKXOffsetIndexFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L/FKExtraIndexFinger1_L/FKIndexFinger1_L/FKXOffsetIndexFinger1_L/FKXIndexFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L/FKExtraIndexFinger1_L/FKIndexFinger1_L/FKXOffsetIndexFinger1_L/FKXIndexFinger1_L/FKOffsetIndexFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L/FKExtraIndexFinger1_L/FKIndexFinger1_L/FKXOffsetIndexFinger1_L/FKXIndexFinger1_L/FKOffsetIndexFinger2_L/SDK1FKIndexFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L/FKExtraIndexFinger1_L/FKIndexFinger1_L/FKXOffsetIndexFinger1_L/FKXIndexFinger1_L/FKOffsetIndexFinger2_L/SDK1FKIndexFinger2_L/FKExtraIndexFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L/FKExtraIndexFinger1_L/FKIndexFinger1_L/FKXOffsetIndexFinger1_L/FKXIndexFinger1_L/FKOffsetIndexFinger2_L/SDK1FKIndexFinger2_L/FKExtraIndexFinger2_L/FKIndexFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L/FKExtraIndexFinger1_L/FKIndexFinger1_L/FKXOffsetIndexFinger1_L/FKXIndexFinger1_L/FKOffsetIndexFinger2_L/SDK1FKIndexFinger2_L/FKExtraIndexFinger2_L/FKIndexFinger2_L/FKXOffsetIndexFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L/FKExtraIndexFinger1_L/FKIndexFinger1_L/FKXOffsetIndexFinger1_L/FKXIndexFinger1_L/FKOffsetIndexFinger2_L/SDK1FKIndexFinger2_L/FKExtraIndexFinger2_L/FKIndexFinger2_L/FKXOffsetIndexFinger2_L/FKXIndexFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L/FKExtraIndexFinger1_L/FKIndexFinger1_L/FKXOffsetIndexFinger1_L/FKXIndexFinger1_L/FKOffsetIndexFinger2_L/SDK1FKIndexFinger2_L/FKExtraIndexFinger2_L/FKIndexFinger2_L/FKXOffsetIndexFinger2_L/FKXIndexFinger2_L/FKOffsetIndexFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L/FKExtraIndexFinger1_L/FKIndexFinger1_L/FKXOffsetIndexFinger1_L/FKXIndexFinger1_L/FKOffsetIndexFinger2_L/SDK1FKIndexFinger2_L/FKExtraIndexFinger2_L/FKIndexFinger2_L/FKXOffsetIndexFinger2_L/FKXIndexFinger2_L/FKOffsetIndexFinger3_L/SDK1FKIndexFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L/FKExtraIndexFinger1_L/FKIndexFinger1_L/FKXOffsetIndexFinger1_L/FKXIndexFinger1_L/FKOffsetIndexFinger2_L/SDK1FKIndexFinger2_L/FKExtraIndexFinger2_L/FKIndexFinger2_L/FKXOffsetIndexFinger2_L/FKXIndexFinger2_L/FKOffsetIndexFinger3_L/SDK1FKIndexFinger3_L/FKExtraIndexFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetIndexFinger1_L/SDK1FKIndexFinger1_L/SDK2FKIndexFinger1_L/FKExtraIndexFinger1_L/FKIndexFinger1_L/FKXOffsetIndexFinger1_L/FKXIndexFinger1_L/FKOffsetIndexFinger2_L/SDK1FKIndexFinger2_L/FKExtraIndexFinger2_L/FKIndexFinger2_L/FKXOffsetIndexFinger2_L/FKXIndexFinger2_L/FKOffsetIndexFinger3_L/SDK1FKIndexFinger3_L/FKExtraIndexFinger3_L/FKIndexFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L/FKExtraMiddleFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L/FKExtraMiddleFinger1_L/FKMiddleFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L/FKExtraMiddleFinger1_L/FKMiddleFinger1_L/FKXOffsetMiddleFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L/FKExtraMiddleFinger1_L/FKMiddleFinger1_L/FKXOffsetMiddleFinger1_L/FKXMiddleFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L/FKExtraMiddleFinger1_L/FKMiddleFinger1_L/FKXOffsetMiddleFinger1_L/FKXMiddleFinger1_L/FKOffsetMiddleFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L/FKExtraMiddleFinger1_L/FKMiddleFinger1_L/FKXOffsetMiddleFinger1_L/FKXMiddleFinger1_L/FKOffsetMiddleFinger2_L/SDK1FKMiddleFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L/FKExtraMiddleFinger1_L/FKMiddleFinger1_L/FKXOffsetMiddleFinger1_L/FKXMiddleFinger1_L/FKOffsetMiddleFinger2_L/SDK1FKMiddleFinger2_L/FKExtraMiddleFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L/FKExtraMiddleFinger1_L/FKMiddleFinger1_L/FKXOffsetMiddleFinger1_L/FKXMiddleFinger1_L/FKOffsetMiddleFinger2_L/SDK1FKMiddleFinger2_L/FKExtraMiddleFinger2_L/FKMiddleFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L/FKExtraMiddleFinger1_L/FKMiddleFinger1_L/FKXOffsetMiddleFinger1_L/FKXMiddleFinger1_L/FKOffsetMiddleFinger2_L/SDK1FKMiddleFinger2_L/FKExtraMiddleFinger2_L/FKMiddleFinger2_L/FKXOffsetMiddleFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L/FKExtraMiddleFinger1_L/FKMiddleFinger1_L/FKXOffsetMiddleFinger1_L/FKXMiddleFinger1_L/FKOffsetMiddleFinger2_L/SDK1FKMiddleFinger2_L/FKExtraMiddleFinger2_L/FKMiddleFinger2_L/FKXOffsetMiddleFinger2_L/FKXMiddleFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L/FKExtraMiddleFinger1_L/FKMiddleFinger1_L/FKXOffsetMiddleFinger1_L/FKXMiddleFinger1_L/FKOffsetMiddleFinger2_L/SDK1FKMiddleFinger2_L/FKExtraMiddleFinger2_L/FKMiddleFinger2_L/FKXOffsetMiddleFinger2_L/FKXMiddleFinger2_L/FKOffsetMiddleFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L/FKExtraMiddleFinger1_L/FKMiddleFinger1_L/FKXOffsetMiddleFinger1_L/FKXMiddleFinger1_L/FKOffsetMiddleFinger2_L/SDK1FKMiddleFinger2_L/FKExtraMiddleFinger2_L/FKMiddleFinger2_L/FKXOffsetMiddleFinger2_L/FKXMiddleFinger2_L/FKOffsetMiddleFinger3_L/SDK1FKMiddleFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L/FKExtraMiddleFinger1_L/FKMiddleFinger1_L/FKXOffsetMiddleFinger1_L/FKXMiddleFinger1_L/FKOffsetMiddleFinger2_L/SDK1FKMiddleFinger2_L/FKExtraMiddleFinger2_L/FKMiddleFinger2_L/FKXOffsetMiddleFinger2_L/FKXMiddleFinger2_L/FKOffsetMiddleFinger3_L/SDK1FKMiddleFinger3_L/FKExtraMiddleFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetMiddleFinger1_L/SDK1FKMiddleFinger1_L/FKExtraMiddleFinger1_L/FKMiddleFinger1_L/FKXOffsetMiddleFinger1_L/FKXMiddleFinger1_L/FKOffsetMiddleFinger2_L/SDK1FKMiddleFinger2_L/FKExtraMiddleFinger2_L/FKMiddleFinger2_L/FKXOffsetMiddleFinger2_L/FKXMiddleFinger2_L/FKOffsetMiddleFinger3_L/SDK1FKMiddleFinger3_L/FKExtraMiddleFinger3_L/FKMiddleFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L/FKExtraPinkyFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L/FKExtraPinkyFinger1_L/FKPinkyFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L/FKExtraPinkyFinger1_L/FKPinkyFinger1_L/FKXOffsetPinkyFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L/FKExtraPinkyFinger1_L/FKPinkyFinger1_L/FKXOffsetPinkyFinger1_L/FKXPinkyFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L/FKExtraPinkyFinger1_L/FKPinkyFinger1_L/FKXOffsetPinkyFinger1_L/FKXPinkyFinger1_L/FKOffsetPinkyFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L/FKExtraPinkyFinger1_L/FKPinkyFinger1_L/FKXOffsetPinkyFinger1_L/FKXPinkyFinger1_L/FKOffsetPinkyFinger2_L/SDK1FKPinkyFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L/FKExtraPinkyFinger1_L/FKPinkyFinger1_L/FKXOffsetPinkyFinger1_L/FKXPinkyFinger1_L/FKOffsetPinkyFinger2_L/SDK1FKPinkyFinger2_L/FKExtraPinkyFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L/FKExtraPinkyFinger1_L/FKPinkyFinger1_L/FKXOffsetPinkyFinger1_L/FKXPinkyFinger1_L/FKOffsetPinkyFinger2_L/SDK1FKPinkyFinger2_L/FKExtraPinkyFinger2_L/FKPinkyFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L/FKExtraPinkyFinger1_L/FKPinkyFinger1_L/FKXOffsetPinkyFinger1_L/FKXPinkyFinger1_L/FKOffsetPinkyFinger2_L/SDK1FKPinkyFinger2_L/FKExtraPinkyFinger2_L/FKPinkyFinger2_L/FKXOffsetPinkyFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L/FKExtraPinkyFinger1_L/FKPinkyFinger1_L/FKXOffsetPinkyFinger1_L/FKXPinkyFinger1_L/FKOffsetPinkyFinger2_L/SDK1FKPinkyFinger2_L/FKExtraPinkyFinger2_L/FKPinkyFinger2_L/FKXOffsetPinkyFinger2_L/FKXPinkyFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L/FKExtraPinkyFinger1_L/FKPinkyFinger1_L/FKXOffsetPinkyFinger1_L/FKXPinkyFinger1_L/FKOffsetPinkyFinger2_L/SDK1FKPinkyFinger2_L/FKExtraPinkyFinger2_L/FKPinkyFinger2_L/FKXOffsetPinkyFinger2_L/FKXPinkyFinger2_L/FKOffsetPinkyFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L/FKExtraPinkyFinger1_L/FKPinkyFinger1_L/FKXOffsetPinkyFinger1_L/FKXPinkyFinger1_L/FKOffsetPinkyFinger2_L/SDK1FKPinkyFinger2_L/FKExtraPinkyFinger2_L/FKPinkyFinger2_L/FKXOffsetPinkyFinger2_L/FKXPinkyFinger2_L/FKOffsetPinkyFinger3_L/SDK1FKPinkyFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L/FKExtraPinkyFinger1_L/FKPinkyFinger1_L/FKXOffsetPinkyFinger1_L/FKXPinkyFinger1_L/FKOffsetPinkyFinger2_L/SDK1FKPinkyFinger2_L/FKExtraPinkyFinger2_L/FKPinkyFinger2_L/FKXOffsetPinkyFinger2_L/FKXPinkyFinger2_L/FKOffsetPinkyFinger3_L/SDK1FKPinkyFinger3_L/FKExtraPinkyFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetPinkyFinger1_L/SDK1FKPinkyFinger1_L/SDK2FKPinkyFinger1_L/FKExtraPinkyFinger1_L/FKPinkyFinger1_L/FKXOffsetPinkyFinger1_L/FKXPinkyFinger1_L/FKOffsetPinkyFinger2_L/SDK1FKPinkyFinger2_L/FKExtraPinkyFinger2_L/FKPinkyFinger2_L/FKXOffsetPinkyFinger2_L/FKXPinkyFinger2_L/FKOffsetPinkyFinger3_L/SDK1FKPinkyFinger3_L/FKExtraPinkyFinger3_L/FKPinkyFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L/FKExtraThumbFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L/FKExtraThumbFinger1_L/FKThumbFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L/FKExtraThumbFinger1_L/FKThumbFinger1_L/FKXOffsetThumbFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L/FKExtraThumbFinger1_L/FKThumbFinger1_L/FKXOffsetThumbFinger1_L/FKXThumbFinger1_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L/FKExtraThumbFinger1_L/FKThumbFinger1_L/FKXOffsetThumbFinger1_L/FKXThumbFinger1_L/FKOffsetThumbFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L/FKExtraThumbFinger1_L/FKThumbFinger1_L/FKXOffsetThumbFinger1_L/FKXThumbFinger1_L/FKOffsetThumbFinger2_L/SDK1FKThumbFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L/FKExtraThumbFinger1_L/FKThumbFinger1_L/FKXOffsetThumbFinger1_L/FKXThumbFinger1_L/FKOffsetThumbFinger2_L/SDK1FKThumbFinger2_L/FKExtraThumbFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L/FKExtraThumbFinger1_L/FKThumbFinger1_L/FKXOffsetThumbFinger1_L/FKXThumbFinger1_L/FKOffsetThumbFinger2_L/SDK1FKThumbFinger2_L/FKExtraThumbFinger2_L/FKThumbFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L/FKExtraThumbFinger1_L/FKThumbFinger1_L/FKXOffsetThumbFinger1_L/FKXThumbFinger1_L/FKOffsetThumbFinger2_L/SDK1FKThumbFinger2_L/FKExtraThumbFinger2_L/FKThumbFinger2_L/FKXOffsetThumbFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L/FKExtraThumbFinger1_L/FKThumbFinger1_L/FKXOffsetThumbFinger1_L/FKXThumbFinger1_L/FKOffsetThumbFinger2_L/SDK1FKThumbFinger2_L/FKExtraThumbFinger2_L/FKThumbFinger2_L/FKXOffsetThumbFinger2_L/FKXThumbFinger2_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L/FKExtraThumbFinger1_L/FKThumbFinger1_L/FKXOffsetThumbFinger1_L/FKXThumbFinger1_L/FKOffsetThumbFinger2_L/SDK1FKThumbFinger2_L/FKExtraThumbFinger2_L/FKThumbFinger2_L/FKXOffsetThumbFinger2_L/FKXThumbFinger2_L/FKOffsetThumbFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L/FKExtraThumbFinger1_L/FKThumbFinger1_L/FKXOffsetThumbFinger1_L/FKXThumbFinger1_L/FKOffsetThumbFinger2_L/SDK1FKThumbFinger2_L/FKExtraThumbFinger2_L/FKThumbFinger2_L/FKXOffsetThumbFinger2_L/FKXThumbFinger2_L/FKOffsetThumbFinger3_L/SDK1FKThumbFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L/FKExtraThumbFinger1_L/FKThumbFinger1_L/FKXOffsetThumbFinger1_L/FKXThumbFinger1_L/FKOffsetThumbFinger2_L/SDK1FKThumbFinger2_L/FKExtraThumbFinger2_L/FKThumbFinger2_L/FKXOffsetThumbFinger2_L/FKXThumbFinger2_L/FKOffsetThumbFinger3_L/SDK1FKThumbFinger3_L/FKExtraThumbFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_L/FKOffsetThumbFinger1_L/FKExtraThumbFinger1_L/FKThumbFinger1_L/FKXOffsetThumbFinger1_L/FKXThumbFinger1_L/FKOffsetThumbFinger2_L/SDK1FKThumbFinger2_L/FKExtraThumbFinger2_L/FKThumbFinger2_L/FKXOffsetThumbFinger2_L/FKXThumbFinger2_L/FKOffsetThumbFinger3_L/SDK1FKThumbFinger3_L/FKExtraThumbFinger3_L/FKThumbFinger3_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R/FKExtraIndexFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R/FKExtraIndexFinger1_R/FKIndexFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R/FKExtraIndexFinger1_R/FKIndexFinger1_R/FKXOffsetIndexFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R/FKExtraIndexFinger1_R/FKIndexFinger1_R/FKXOffsetIndexFinger1_R/FKXIndexFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R/FKExtraIndexFinger1_R/FKIndexFinger1_R/FKXOffsetIndexFinger1_R/FKXIndexFinger1_R/FKOffsetIndexFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R/FKExtraIndexFinger1_R/FKIndexFinger1_R/FKXOffsetIndexFinger1_R/FKXIndexFinger1_R/FKOffsetIndexFinger2_R/SDK1FKIndexFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R/FKExtraIndexFinger1_R/FKIndexFinger1_R/FKXOffsetIndexFinger1_R/FKXIndexFinger1_R/FKOffsetIndexFinger2_R/SDK1FKIndexFinger2_R/FKExtraIndexFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R/FKExtraIndexFinger1_R/FKIndexFinger1_R/FKXOffsetIndexFinger1_R/FKXIndexFinger1_R/FKOffsetIndexFinger2_R/SDK1FKIndexFinger2_R/FKExtraIndexFinger2_R/FKIndexFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R/FKExtraIndexFinger1_R/FKIndexFinger1_R/FKXOffsetIndexFinger1_R/FKXIndexFinger1_R/FKOffsetIndexFinger2_R/SDK1FKIndexFinger2_R/FKExtraIndexFinger2_R/FKIndexFinger2_R/FKXOffsetIndexFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R/FKExtraIndexFinger1_R/FKIndexFinger1_R/FKXOffsetIndexFinger1_R/FKXIndexFinger1_R/FKOffsetIndexFinger2_R/SDK1FKIndexFinger2_R/FKExtraIndexFinger2_R/FKIndexFinger2_R/FKXOffsetIndexFinger2_R/FKXIndexFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R/FKExtraIndexFinger1_R/FKIndexFinger1_R/FKXOffsetIndexFinger1_R/FKXIndexFinger1_R/FKOffsetIndexFinger2_R/SDK1FKIndexFinger2_R/FKExtraIndexFinger2_R/FKIndexFinger2_R/FKXOffsetIndexFinger2_R/FKXIndexFinger2_R/FKOffsetIndexFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R/FKExtraIndexFinger1_R/FKIndexFinger1_R/FKXOffsetIndexFinger1_R/FKXIndexFinger1_R/FKOffsetIndexFinger2_R/SDK1FKIndexFinger2_R/FKExtraIndexFinger2_R/FKIndexFinger2_R/FKXOffsetIndexFinger2_R/FKXIndexFinger2_R/FKOffsetIndexFinger3_R/SDK1FKIndexFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R/FKExtraIndexFinger1_R/FKIndexFinger1_R/FKXOffsetIndexFinger1_R/FKXIndexFinger1_R/FKOffsetIndexFinger2_R/SDK1FKIndexFinger2_R/FKExtraIndexFinger2_R/FKIndexFinger2_R/FKXOffsetIndexFinger2_R/FKXIndexFinger2_R/FKOffsetIndexFinger3_R/SDK1FKIndexFinger3_R/FKExtraIndexFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetIndexFinger1_R/SDK1FKIndexFinger1_R/SDK2FKIndexFinger1_R/FKExtraIndexFinger1_R/FKIndexFinger1_R/FKXOffsetIndexFinger1_R/FKXIndexFinger1_R/FKOffsetIndexFinger2_R/SDK1FKIndexFinger2_R/FKExtraIndexFinger2_R/FKIndexFinger2_R/FKXOffsetIndexFinger2_R/FKXIndexFinger2_R/FKOffsetIndexFinger3_R/SDK1FKIndexFinger3_R/FKExtraIndexFinger3_R/FKIndexFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R/FKExtraMiddleFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R/FKExtraMiddleFinger1_R/FKMiddleFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R/FKExtraMiddleFinger1_R/FKMiddleFinger1_R/FKXOffsetMiddleFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R/FKExtraMiddleFinger1_R/FKMiddleFinger1_R/FKXOffsetMiddleFinger1_R/FKXMiddleFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R/FKExtraMiddleFinger1_R/FKMiddleFinger1_R/FKXOffsetMiddleFinger1_R/FKXMiddleFinger1_R/FKOffsetMiddleFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R/FKExtraMiddleFinger1_R/FKMiddleFinger1_R/FKXOffsetMiddleFinger1_R/FKXMiddleFinger1_R/FKOffsetMiddleFinger2_R/SDK1FKMiddleFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R/FKExtraMiddleFinger1_R/FKMiddleFinger1_R/FKXOffsetMiddleFinger1_R/FKXMiddleFinger1_R/FKOffsetMiddleFinger2_R/SDK1FKMiddleFinger2_R/FKExtraMiddleFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R/FKExtraMiddleFinger1_R/FKMiddleFinger1_R/FKXOffsetMiddleFinger1_R/FKXMiddleFinger1_R/FKOffsetMiddleFinger2_R/SDK1FKMiddleFinger2_R/FKExtraMiddleFinger2_R/FKMiddleFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R/FKExtraMiddleFinger1_R/FKMiddleFinger1_R/FKXOffsetMiddleFinger1_R/FKXMiddleFinger1_R/FKOffsetMiddleFinger2_R/SDK1FKMiddleFinger2_R/FKExtraMiddleFinger2_R/FKMiddleFinger2_R/FKXOffsetMiddleFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R/FKExtraMiddleFinger1_R/FKMiddleFinger1_R/FKXOffsetMiddleFinger1_R/FKXMiddleFinger1_R/FKOffsetMiddleFinger2_R/SDK1FKMiddleFinger2_R/FKExtraMiddleFinger2_R/FKMiddleFinger2_R/FKXOffsetMiddleFinger2_R/FKXMiddleFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R/FKExtraMiddleFinger1_R/FKMiddleFinger1_R/FKXOffsetMiddleFinger1_R/FKXMiddleFinger1_R/FKOffsetMiddleFinger2_R/SDK1FKMiddleFinger2_R/FKExtraMiddleFinger2_R/FKMiddleFinger2_R/FKXOffsetMiddleFinger2_R/FKXMiddleFinger2_R/FKOffsetMiddleFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R/FKExtraMiddleFinger1_R/FKMiddleFinger1_R/FKXOffsetMiddleFinger1_R/FKXMiddleFinger1_R/FKOffsetMiddleFinger2_R/SDK1FKMiddleFinger2_R/FKExtraMiddleFinger2_R/FKMiddleFinger2_R/FKXOffsetMiddleFinger2_R/FKXMiddleFinger2_R/FKOffsetMiddleFinger3_R/SDK1FKMiddleFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R/FKExtraMiddleFinger1_R/FKMiddleFinger1_R/FKXOffsetMiddleFinger1_R/FKXMiddleFinger1_R/FKOffsetMiddleFinger2_R/SDK1FKMiddleFinger2_R/FKExtraMiddleFinger2_R/FKMiddleFinger2_R/FKXOffsetMiddleFinger2_R/FKXMiddleFinger2_R/FKOffsetMiddleFinger3_R/SDK1FKMiddleFinger3_R/FKExtraMiddleFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetMiddleFinger1_R/SDK1FKMiddleFinger1_R/FKExtraMiddleFinger1_R/FKMiddleFinger1_R/FKXOffsetMiddleFinger1_R/FKXMiddleFinger1_R/FKOffsetMiddleFinger2_R/SDK1FKMiddleFinger2_R/FKExtraMiddleFinger2_R/FKMiddleFinger2_R/FKXOffsetMiddleFinger2_R/FKXMiddleFinger2_R/FKOffsetMiddleFinger3_R/SDK1FKMiddleFinger3_R/FKExtraMiddleFinger3_R/FKMiddleFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R/FKExtraPinkyFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R/FKExtraPinkyFinger1_R/FKPinkyFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R/FKExtraPinkyFinger1_R/FKPinkyFinger1_R/FKXOffsetPinkyFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R/FKExtraPinkyFinger1_R/FKPinkyFinger1_R/FKXOffsetPinkyFinger1_R/FKXPinkyFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R/FKExtraPinkyFinger1_R/FKPinkyFinger1_R/FKXOffsetPinkyFinger1_R/FKXPinkyFinger1_R/FKOffsetPinkyFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R/FKExtraPinkyFinger1_R/FKPinkyFinger1_R/FKXOffsetPinkyFinger1_R/FKXPinkyFinger1_R/FKOffsetPinkyFinger2_R/SDK1FKPinkyFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R/FKExtraPinkyFinger1_R/FKPinkyFinger1_R/FKXOffsetPinkyFinger1_R/FKXPinkyFinger1_R/FKOffsetPinkyFinger2_R/SDK1FKPinkyFinger2_R/FKExtraPinkyFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R/FKExtraPinkyFinger1_R/FKPinkyFinger1_R/FKXOffsetPinkyFinger1_R/FKXPinkyFinger1_R/FKOffsetPinkyFinger2_R/SDK1FKPinkyFinger2_R/FKExtraPinkyFinger2_R/FKPinkyFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R/FKExtraPinkyFinger1_R/FKPinkyFinger1_R/FKXOffsetPinkyFinger1_R/FKXPinkyFinger1_R/FKOffsetPinkyFinger2_R/SDK1FKPinkyFinger2_R/FKExtraPinkyFinger2_R/FKPinkyFinger2_R/FKXOffsetPinkyFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R/FKExtraPinkyFinger1_R/FKPinkyFinger1_R/FKXOffsetPinkyFinger1_R/FKXPinkyFinger1_R/FKOffsetPinkyFinger2_R/SDK1FKPinkyFinger2_R/FKExtraPinkyFinger2_R/FKPinkyFinger2_R/FKXOffsetPinkyFinger2_R/FKXPinkyFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R/FKExtraPinkyFinger1_R/FKPinkyFinger1_R/FKXOffsetPinkyFinger1_R/FKXPinkyFinger1_R/FKOffsetPinkyFinger2_R/SDK1FKPinkyFinger2_R/FKExtraPinkyFinger2_R/FKPinkyFinger2_R/FKXOffsetPinkyFinger2_R/FKXPinkyFinger2_R/FKOffsetPinkyFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R/FKExtraPinkyFinger1_R/FKPinkyFinger1_R/FKXOffsetPinkyFinger1_R/FKXPinkyFinger1_R/FKOffsetPinkyFinger2_R/SDK1FKPinkyFinger2_R/FKExtraPinkyFinger2_R/FKPinkyFinger2_R/FKXOffsetPinkyFinger2_R/FKXPinkyFinger2_R/FKOffsetPinkyFinger3_R/SDK1FKPinkyFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R/FKExtraPinkyFinger1_R/FKPinkyFinger1_R/FKXOffsetPinkyFinger1_R/FKXPinkyFinger1_R/FKOffsetPinkyFinger2_R/SDK1FKPinkyFinger2_R/FKExtraPinkyFinger2_R/FKPinkyFinger2_R/FKXOffsetPinkyFinger2_R/FKXPinkyFinger2_R/FKOffsetPinkyFinger3_R/SDK1FKPinkyFinger3_R/FKExtraPinkyFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetPinkyFinger1_R/SDK1FKPinkyFinger1_R/SDK2FKPinkyFinger1_R/FKExtraPinkyFinger1_R/FKPinkyFinger1_R/FKXOffsetPinkyFinger1_R/FKXPinkyFinger1_R/FKOffsetPinkyFinger2_R/SDK1FKPinkyFinger2_R/FKExtraPinkyFinger2_R/FKPinkyFinger2_R/FKXOffsetPinkyFinger2_R/FKXPinkyFinger2_R/FKOffsetPinkyFinger3_R/SDK1FKPinkyFinger3_R/FKExtraPinkyFinger3_R/FKPinkyFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R/FKExtraThumbFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R/FKExtraThumbFinger1_R/FKThumbFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R/FKExtraThumbFinger1_R/FKThumbFinger1_R/FKXOffsetThumbFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R/FKExtraThumbFinger1_R/FKThumbFinger1_R/FKXOffsetThumbFinger1_R/FKXThumbFinger1_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R/FKExtraThumbFinger1_R/FKThumbFinger1_R/FKXOffsetThumbFinger1_R/FKXThumbFinger1_R/FKOffsetThumbFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R/FKExtraThumbFinger1_R/FKThumbFinger1_R/FKXOffsetThumbFinger1_R/FKXThumbFinger1_R/FKOffsetThumbFinger2_R/SDK1FKThumbFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R/FKExtraThumbFinger1_R/FKThumbFinger1_R/FKXOffsetThumbFinger1_R/FKXThumbFinger1_R/FKOffsetThumbFinger2_R/SDK1FKThumbFinger2_R/FKExtraThumbFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R/FKExtraThumbFinger1_R/FKThumbFinger1_R/FKXOffsetThumbFinger1_R/FKXThumbFinger1_R/FKOffsetThumbFinger2_R/SDK1FKThumbFinger2_R/FKExtraThumbFinger2_R/FKThumbFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R/FKExtraThumbFinger1_R/FKThumbFinger1_R/FKXOffsetThumbFinger1_R/FKXThumbFinger1_R/FKOffsetThumbFinger2_R/SDK1FKThumbFinger2_R/FKExtraThumbFinger2_R/FKThumbFinger2_R/FKXOffsetThumbFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R/FKExtraThumbFinger1_R/FKThumbFinger1_R/FKXOffsetThumbFinger1_R/FKXThumbFinger1_R/FKOffsetThumbFinger2_R/SDK1FKThumbFinger2_R/FKExtraThumbFinger2_R/FKThumbFinger2_R/FKXOffsetThumbFinger2_R/FKXThumbFinger2_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R/FKExtraThumbFinger1_R/FKThumbFinger1_R/FKXOffsetThumbFinger1_R/FKXThumbFinger1_R/FKOffsetThumbFinger2_R/SDK1FKThumbFinger2_R/FKExtraThumbFinger2_R/FKThumbFinger2_R/FKXOffsetThumbFinger2_R/FKXThumbFinger2_R/FKOffsetThumbFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R/FKExtraThumbFinger1_R/FKThumbFinger1_R/FKXOffsetThumbFinger1_R/FKXThumbFinger1_R/FKOffsetThumbFinger2_R/SDK1FKThumbFinger2_R/FKExtraThumbFinger2_R/FKThumbFinger2_R/FKXOffsetThumbFinger2_R/FKXThumbFinger2_R/FKOffsetThumbFinger3_R/SDK1FKThumbFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R/FKExtraThumbFinger1_R/FKThumbFinger1_R/FKXOffsetThumbFinger1_R/FKXThumbFinger1_R/FKOffsetThumbFinger2_R/SDK1FKThumbFinger2_R/FKExtraThumbFinger2_R/FKThumbFinger2_R/FKXOffsetThumbFinger2_R/FKXThumbFinger2_R/FKOffsetThumbFinger3_R/SDK1FKThumbFinger3_R/FKExtraThumbFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/FKSystem/FKParentConstraintToWrist_R/FKOffsetThumbFinger1_R/FKExtraThumbFinger1_R/FKThumbFinger1_R/FKXOffsetThumbFinger1_R/FKXThumbFinger1_R/FKOffsetThumbFinger2_R/SDK1FKThumbFinger2_R/FKExtraThumbFinger2_R/FKThumbFinger2_R/FKXOffsetThumbFinger2_R/FKXThumbFinger2_R/FKOffsetThumbFinger3_R/SDK1FKThumbFinger3_R/FKExtraThumbFinger3_R/FKThumbFinger3_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKCurve
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKCurve/IKSpineCurve_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetArm_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetArm_L/IKExtraArm_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetArm_L/IKExtraArm_L/IKArm_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetArm_L/IKExtraArm_L/IKArm_L/IKmessureConstrainToArm_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetArm_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetArm_R/IKExtraArm_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetArm_R/IKExtraArm_R/IKArm_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetArm_R/IKExtraArm_R/IKArm_R/IKmessureConstrainToArm_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L/FKInIKExtraLeg_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L/FKInIKExtraLeg_L/FKInIKLeg_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L/FKInIKExtraLeg_L/FKInIKLeg_L/RollOffsetOffsetHeelLeg_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L/FKInIKExtraLeg_L/FKInIKLeg_L/RollOffsetOffsetHeelLeg_L/RollOffsetHeelLeg_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L/FKInIKExtraLeg_L/FKInIKLeg_L/RollOffsetOffsetHeelLeg_L/RollOffsetHeelLeg_L/RollExtraHeelLeg_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L/FKInIKExtraLeg_L/FKInIKLeg_L/RollOffsetOffsetHeelLeg_L/RollOffsetHeelLeg_L/RollExtraHeelLeg_L/RollHeelLeg_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L/FKInIKExtraLeg_L/FKInIKLeg_L/RollOffsetOffsetHeelLeg_L/RollOffsetHeelLeg_L/RollExtraHeelLeg_L/RollHeelLeg_L/RollOffsetToesEnd_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L/FKInIKExtraLeg_L/FKInIKLeg_L/RollOffsetOffsetHeelLeg_L/RollOffsetHeelLeg_L/RollExtraHeelLeg_L/RollHeelLeg_L/RollOffsetToesEnd_L/RollExtraToesEnd_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L/FKInIKExtraLeg_L/FKInIKLeg_L/RollOffsetOffsetHeelLeg_L/RollOffsetHeelLeg_L/RollExtraHeelLeg_L/RollHeelLeg_L/RollOffsetToesEnd_L/RollExtraToesEnd_L/RollToesEnd_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L/FKInIKExtraLeg_L/FKInIKLeg_L/RollOffsetOffsetHeelLeg_L/RollOffsetHeelLeg_L/RollExtraHeelLeg_L/RollHeelLeg_L/RollOffsetToesEnd_L/RollExtraToesEnd_L/RollToesEnd_L/RollOffsetToes_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L/FKInIKExtraLeg_L/FKInIKLeg_L/RollOffsetOffsetHeelLeg_L/RollOffsetHeelLeg_L/RollExtraHeelLeg_L/RollHeelLeg_L/RollOffsetToesEnd_L/RollExtraToesEnd_L/RollToesEnd_L/RollOffsetToes_L/RollExtraToes_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L/FKInIKExtraLeg_L/FKInIKLeg_L/RollOffsetOffsetHeelLeg_L/RollOffsetHeelLeg_L/RollExtraHeelLeg_L/RollHeelLeg_L/RollOffsetToesEnd_L/RollExtraToesEnd_L/RollToesEnd_L/RollOffsetToes_L/RollExtraToes_L/RollToes_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L/FKInIKExtraLeg_L/FKInIKLeg_L/RollOffsetOffsetHeelLeg_L/RollOffsetHeelLeg_L/RollExtraHeelLeg_L/RollHeelLeg_L/RollOffsetToesEnd_L/RollExtraToesEnd_L/RollToesEnd_L/RollOffsetToes_L/RollExtraToes_L/RollToes_L/IKLegFootRockReverse_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_L/IKExtraLeg_L/IKLeg_L/IKLegFootRockInnerPivot_L/IKLegFootRockOuterPivot_L/FKInIKOffsetLeg_L/FKInIKExtraLeg_L/FKInIKLeg_L/RollOffsetOffsetHeelLeg_L/RollOffsetHeelLeg_L/RollExtraHeelLeg_L/RollHeelLeg_L/RollOffsetToesEnd_L/RollExtraToesEnd_L/RollToesEnd_L/RollOffsetToes_L/RollExtraToes_L/RollToes_L/IKLegFootRockReverse_L/IKmessureConstrainToLeg_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R/FKInIKExtraLeg_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R/FKInIKExtraLeg_R/FKInIKLeg_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R/FKInIKExtraLeg_R/FKInIKLeg_R/RollOffsetOffsetHeelLeg_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R/FKInIKExtraLeg_R/FKInIKLeg_R/RollOffsetOffsetHeelLeg_R/RollOffsetHeelLeg_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R/FKInIKExtraLeg_R/FKInIKLeg_R/RollOffsetOffsetHeelLeg_R/RollOffsetHeelLeg_R/RollExtraHeelLeg_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R/FKInIKExtraLeg_R/FKInIKLeg_R/RollOffsetOffsetHeelLeg_R/RollOffsetHeelLeg_R/RollExtraHeelLeg_R/RollHeelLeg_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R/FKInIKExtraLeg_R/FKInIKLeg_R/RollOffsetOffsetHeelLeg_R/RollOffsetHeelLeg_R/RollExtraHeelLeg_R/RollHeelLeg_R/RollOffsetToesEnd_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R/FKInIKExtraLeg_R/FKInIKLeg_R/RollOffsetOffsetHeelLeg_R/RollOffsetHeelLeg_R/RollExtraHeelLeg_R/RollHeelLeg_R/RollOffsetToesEnd_R/RollExtraToesEnd_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R/FKInIKExtraLeg_R/FKInIKLeg_R/RollOffsetOffsetHeelLeg_R/RollOffsetHeelLeg_R/RollExtraHeelLeg_R/RollHeelLeg_R/RollOffsetToesEnd_R/RollExtraToesEnd_R/RollToesEnd_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R/FKInIKExtraLeg_R/FKInIKLeg_R/RollOffsetOffsetHeelLeg_R/RollOffsetHeelLeg_R/RollExtraHeelLeg_R/RollHeelLeg_R/RollOffsetToesEnd_R/RollExtraToesEnd_R/RollToesEnd_R/RollOffsetToes_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R/FKInIKExtraLeg_R/FKInIKLeg_R/RollOffsetOffsetHeelLeg_R/RollOffsetHeelLeg_R/RollExtraHeelLeg_R/RollHeelLeg_R/RollOffsetToesEnd_R/RollExtraToesEnd_R/RollToesEnd_R/RollOffsetToes_R/RollExtraToes_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R/FKInIKExtraLeg_R/FKInIKLeg_R/RollOffsetOffsetHeelLeg_R/RollOffsetHeelLeg_R/RollExtraHeelLeg_R/RollHeelLeg_R/RollOffsetToesEnd_R/RollExtraToesEnd_R/RollToesEnd_R/RollOffsetToes_R/RollExtraToes_R/RollToes_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R/FKInIKExtraLeg_R/FKInIKLeg_R/RollOffsetOffsetHeelLeg_R/RollOffsetHeelLeg_R/RollExtraHeelLeg_R/RollHeelLeg_R/RollOffsetToesEnd_R/RollExtraToesEnd_R/RollToesEnd_R/RollOffsetToes_R/RollExtraToes_R/RollToes_R/IKLegFootRockReverse_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKOffsetLeg_R/IKExtraLeg_R/IKLeg_R/IKLegFootRockInnerPivot_R/IKLegFootRockOuterPivot_R/FKInIKOffsetLeg_R/FKInIKExtraLeg_R/FKInIKLeg_R/RollOffsetOffsetHeelLeg_R/RollOffsetHeelLeg_R/RollExtraHeelLeg_R/RollHeelLeg_R/RollOffsetToesEnd_R/RollExtraToesEnd_R/RollToesEnd_R/RollOffsetToes_R/RollExtraToes_R/RollToes_R/IKLegFootRockReverse_R/IKmessureConstrainToLeg_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine1_M/IKExtraSpine1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine1_M/IKExtraSpine1_M/IKSpine1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine1_M/IKExtraSpine1_M/IKSpine1_M/IKSpineLocator0_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine1_M/IKExtraSpine1_M/IKSpine1_M/IKStiffOrientSpine1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine1_M/IKExtraSpine1_M/IKSpine1_M/IKStiffOrientSpine1_M/IKSpineLocator1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine2_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine2_M/IKExtraSpine2_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine2_M/IKExtraSpine2_M/IKSpine2_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine2_M/IKExtraSpine2_M/IKSpine2_M/IKSpineLocator2_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine3_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine3_M/IKExtraSpine3_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine3_M/IKExtraSpine3_M/IKSpine3_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine3_M/IKExtraSpine3_M/IKSpine3_M/IKSpineLocator4_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine3_M/IKExtraSpine3_M/IKSpine3_M/IKStiffOrientSpine3_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine3_M/IKExtraSpine3_M/IKSpine3_M/IKStiffOrientSpine3_M/IKSpineLocator3_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKScalerChest_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKScalerRoot_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKHandle/IKScalerSpine1_M
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKMessure
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKMessure/IKdistanceArm_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKMessure/IKdistanceArm_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKMessure/IKdistanceLeg_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKMessure/IKdistanceLeg_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKMessure/IKmessureLoc1Arm_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKMessure/IKmessureLoc1Arm_L/IKmessureLoc2Arm_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKMessure/IKmessureLoc1Arm_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKMessure/IKmessureLoc1Arm_R/IKmessureLoc2Arm_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKMessure/IKmessureLoc1Leg_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKMessure/IKmessureLoc1Leg_L/IKmessureLoc2Leg_L
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKMessure/IKmessureLoc1Leg_R
+        weight: 1
+      - path: Raven_Rig/Main/MotionSystem/IKSystem/IKMessure/IKmessureLoc1Leg_R/IKmessureLoc2Leg_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
