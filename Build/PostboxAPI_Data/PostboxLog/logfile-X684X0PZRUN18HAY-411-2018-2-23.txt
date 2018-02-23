@@ -1,0 +1,160 @@
+2/23/2018 11:20:02 PM - [Notification] --- Initalize Postbox API ---
+2/23/2018 11:20:03 PM - [Notification] Begin loading user settings.
+2/23/2018 11:20:03 PM - [Warning] Username not set. Some functions need the userdata for calling.
+2/23/2018 11:20:03 PM - [Warning] Userpassword not set. Some functions need the userdata for calling.
+2/23/2018 11:20:03 PM - [Notification] Usersettings load correct.
+2/23/2018 11:20:03 PM - [Notification] Start Request 'CheckAppID'
+2/23/2018 11:20:03 PM - [APICalls] Request CheckAppID:
+{
+	"PostBoxGlobal":{
+		"AppID":"X684X0PZRUN18HAY",
+		"Version":"1.0",
+		"UserName":"",
+		"UserPassword":"",
+		"LicenseKey":"",
+		"DeviceID":"56a193fa3f4d70.62759891",
+		"CallName":"CheckAppID"
+	},
+	"Param":{
+		"AppID":"X684X0PZRUN18HAY"
+	}
+}
+2/23/2018 11:20:03 PM - [APICalls] Response CheckAppID:
+{
+	"CallStatus":"Success",
+	"CallName":"CheckAppID",
+	"Version":"1.0",
+	"Result":"true"
+}
+2/23/2018 11:20:03 PM - [Notification] Successful found app on API.
+2/23/2018 11:20:03 PM - [Notification] Now checking device connect on API.
+2/23/2018 11:20:03 PM - [Notification] Start Request 'CheckDeviceID'
+2/23/2018 11:20:03 PM - [APICalls] Request CheckDeviceID:
+{
+	"PostBoxGlobal":{
+		"AppID":"X684X0PZRUN18HAY",
+		"Version":"1.0",
+		"UserName":"",
+		"UserPassword":"",
+		"LicenseKey":"",
+		"DeviceID":"56a193fa3f4d70.62759891",
+		"CallName":"CheckDeviceID"
+	},
+	"Param":{
+		"DeviceID":"56a193fa3f4d70.62759891"
+	}
+}
+2/23/2018 11:20:04 PM - [APICalls] Response CheckDeviceID:
+{
+	"CallStatus":"Success",
+	"CallName":"CheckDeviceID",
+	"Version":"1.0",
+	"Result":"true"
+}
+2/23/2018 11:20:04 PM - [Notification] Successful found device on API.
+2/23/2018 11:20:04 PM - [Notification] PostboxAPI: Ready for usage.
+2/23/2018 11:20:04 PM - [Notification] Start Request 'GetDataPackages'
+2/23/2018 11:20:04 PM - [APICalls] Request GetDataPackages:
+{
+	"PostBoxGlobal":{
+		"AppID":"X684X0PZRUN18HAY",
+		"Version":"1.0",
+		"UserName":"",
+		"UserPassword":"",
+		"LicenseKey":"",
+		"DeviceID":"56a193fa3f4d70.62759891",
+		"CallName":"GetDataPackages"
+	},
+	"Param":{
+		"Status":1
+	}
+}
+2/23/2018 11:20:04 PM - [Notification] Start Request 'GetServerTime'
+2/23/2018 11:20:04 PM - [APICalls] Request GetServerTime:
+{
+	"PostBoxGlobal":{
+		"AppID":"X684X0PZRUN18HAY",
+		"Version":"1.0",
+		"UserName":"",
+		"UserPassword":"",
+		"LicenseKey":"",
+		"DeviceID":"56a193fa3f4d70.62759891",
+		"CallName":"GetServerTime"
+	},
+	"Param":[]
+}
+2/23/2018 11:20:05 PM - [APICalls] Response GetDataPackages:
+{
+	"CallStatus":"Success",
+	"CallName":"GetDataPackages",
+	"Version":"1.0"
+}
+2/23/2018 11:20:05 PM - [APICalls] Response GetServerTime:
+{
+	"CallStatus":"Success",
+	"CallName":"GetServerTime",
+	"Version":"1.0",
+	"Result":{
+		"TimeStamp":"2018-02-23T23:20:08+01:00",
+		"UniversalTimeStamp":"2018-02-23T22:20:08+00:00"
+	}
+}
+2/23/2018 11:20:31 PM - [Notification] Start Request 'GetDataPackages'
+2/23/2018 11:20:31 PM - [APICalls] Request GetDataPackages:
+{
+	"PostBoxGlobal":{
+		"AppID":"X684X0PZRUN18HAY",
+		"Version":"1.0",
+		"UserName":"",
+		"UserPassword":"",
+		"LicenseKey":"",
+		"DeviceID":"56a193fa3f4d70.62759891",
+		"CallName":"GetDataPackages"
+	},
+	"Param":{
+		"Status":1
+	}
+}
+2/23/2018 11:20:32 PM - [APICalls] Response GetDataPackages:
+{
+	"CallStatus":"Success",
+	"CallName":"GetDataPackages",
+	"Version":"1.0",
+	"Result":[
+		{
+			"Request":{
+				"TransactionId":"17d856203d4e37acb0aa164a8c4c5814b0b92e294acee00fd609be0f7e391dc36e9edc1d357fd3a736ef50449fc75e390d2e7dbcefe2d9a189df89d16d7740be",
+				"SenderAppId":"X684X0PZRUN18HAY",
+				"SenderDeviceId":"5a908d058069d6.96368049",
+				"CreatedAt":"2018-02-23 23:20:28",
+				"UpdatedAt":"2018-02-23 23:20:28",
+				"Data":"A003",
+				"Status":"open"
+			}
+		}
+	]
+}
+2/23/2018 11:20:32 PM - [Notification] Start Request 'UpdateDataPackageStatus'
+2/23/2018 11:20:32 PM - [APICalls] Request UpdateDataPackageStatus:
+{
+	"PostBoxGlobal":{
+		"AppID":"X684X0PZRUN18HAY",
+		"Version":"1.0",
+		"UserName":"",
+		"UserPassword":"",
+		"LicenseKey":"",
+		"DeviceID":"56a193fa3f4d70.62759891",
+		"CallName":"UpdateDataPackageStatus"
+	},
+	"Param":{
+		"TransactionId":"17d856203d4e37acb0aa164a8c4c5814b0b92e294acee00fd609be0f7e391dc36e9edc1d357fd3a736ef50449fc75e390d2e7dbcefe2d9a189df89d16d7740be",
+		"Status":"received",
+		"Notification":""
+	}
+}
+2/23/2018 11:20:33 PM - [APICalls] Response UpdateDataPackageStatus:
+{
+	"CallStatus":"Success",
+	"CallName":"UpdateDataPackageStatus",
+	"Version":"1.0"
+}
