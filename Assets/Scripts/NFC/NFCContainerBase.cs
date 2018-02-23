@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class NFCContainerBase : MonoBehaviour
 {
+    public NFCController.AmiiboData amiibo;
     public AudioSource annoncementAudio;
 
     private void Reset()
@@ -16,6 +17,7 @@ public abstract class NFCContainerBase : MonoBehaviour
 
     public virtual void Initialize(NFCController.AmiiboData amiibo)
     {
+        this.amiibo = amiibo;
         annoncementAudio.clip = amiibo.announcmentSFX;
         annoncementAudio.Play();
     }
